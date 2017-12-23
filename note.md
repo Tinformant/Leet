@@ -1,3 +1,5 @@
+#### Maximum Subarray Problem
+
 ```java
     public int maxProfit(int[] prices) {
         int maxCur = 0, maxSoFar = 0;
