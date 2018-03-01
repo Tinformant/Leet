@@ -1,9 +1,11 @@
 ## 256 Paint House
+The subproblem is finding out the cost at the kth house. For the k+1 house, the cost is the min(cost at k + cost at k-1).
 ```java
     public int minCost(int[][] costs) {
         if (costs == null || costs.length == 0) return 0;
         int[][] dp = new int[costs.length][3];
         
+        // dp[m][n] is the cost minimum cost at house m and color n.
         dp[0][0] = costs[0][0];
         dp[0][1] = costs[0][1];
         dp[0][2] = costs[0][2];
