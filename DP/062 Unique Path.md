@@ -60,6 +60,7 @@ public int uniquePathsWithObstacles(int[][] obstacleGrid) {
     return dp[row - 1][col - 1];
 }
 ```
+064 Minimum Path Sum
 ```java
 public int minPathSum(int[][] grid) {
     int row = grid.length;
