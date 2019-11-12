@@ -1,5 +1,5 @@
 ### 0139 Word Break
-Subproblem is 
+Subproblem is if subarray(0, i) can be segmented into words from the dictionary. So dp[0] means whether subarray(0, 0) (which is an empty string) can be segmented, and of course the answer is yes.
 
 ```java
 public boolean wordBreak(String s, List<String> wordDict) {
