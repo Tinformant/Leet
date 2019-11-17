@@ -23,7 +23,11 @@ A scheduler is called ____fair____ if every process in the run queue receives th
 The ____O(1)____ scheduler for linux minimizes computation at the expense of non-optimal ____fairness____. The main feature of this scheduler is that every process in the run queue gets a constant amount of runtime per ____epoch/slice____.
 
 The problem with O(1) scheduling is that it is not fair, in the sense that a process that blocks waiting for I/O gets ____less____ CPU time than a process that does not.
+
+
 (Extra credit) The translation lookaside buffer replaced the segment table on modern processors largely to save ____money____.
 
 ## Filesystem
 If several processes have the same file open, they all share the same ____kernel____ descriptor for the file. If every process used a different one to write to the same file, then output could potentially be ____lost/overwritten____.
+
+If one device in linux is opened by two processes, these processes have different ____process____ file descriptors but the same ____kernel____ file descriptor. If two processes write to the same file descriptor at the same time, writes are done one at a time. To describe this situation, we say that "write is ____atomic____". We can force sections of code to be effectively ____atomic____ by surrounding each section with ____mutex locks____.
