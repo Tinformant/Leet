@@ -1,8 +1,8 @@
 Little's laws
-	* average time in system
-	* average number of jobs waiting for completion
-	* average arrival rate
-	* Give 2 of the 3, one can determine the third:
+* average time in system
+* average number of jobs waiting for completion
+* average arrival rate
+* Give 2 of the 3, one can determine the third:
 	arrival rate = average number of jobs waiting for completion / 	average time in system
 
 Little's law relates arrival rate, time in system, and ____jobs in system____ for a queueing process. Little's law only requires that the system be ____in balance____. This is in contrast to all further results in queueing, which require some kind of assumption about the ____distribution____ of arrival times and/or service times.
