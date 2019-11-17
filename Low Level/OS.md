@@ -13,7 +13,7 @@ If -- in addition -- there are always an average of 5 people waiting in line to 
 
 Queueing theory is based upon the fundamental principle that the system under study is in balance, which means that the average ____input____ rate equals the average ____output____ rate.
 
-### Scheduling
+## Scheduling
 Scheduling policies that seem fair may be unfair because processes ____block/suspend____ when they require input, thus giving up the rest of their ____time slice/allotment____.
 
 The Completely Fair scheduler differs from round robin and O(1) in that the process that runs next is the one that has spent the ____least____ time running in recent history. By contrast, round-robin and O(1) determine who runs next from a ____queue/list/set____ of ready processes, where each one gets a time slice length based upon its ____priority____.
@@ -24,3 +24,6 @@ The ____O(1)____ scheduler for linux minimizes computation at the expense of non
 
 The problem with O(1) scheduling is that it is not fair, in the sense that a process that blocks waiting for I/O gets ____less____ CPU time than a process that does not.
 (Extra credit) The translation lookaside buffer replaced the segment table on modern processors largely to save ____money____.
+
+## Filesystem
+If several processes have the same file open, they all share the same ____kernel____ descriptor for the file. If every process used a different one to write to the same file, then output could potentially be ____lost/overwritten____.
