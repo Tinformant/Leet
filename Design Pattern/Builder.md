@@ -116,4 +116,14 @@ public static void main(String[] args) {
 }
 ```
 
+The Builder pattern is useful to create immutable objects and avoid several constructors with optional parameters.
+Using Builder pattern to build a POJO which can be updated using setters is useless. You only create an additional class.
+
+The builder pattern is most useful in the context of immutable objects. Immutable objects don't have setters by definition. So all of their properties have to be squeezed into the constructor. This is where the builder pattern comes in handy. It allows you to split the initialization of a complex immutable object into multiple, self-explaining instructions so you don't need to have constructor calls like this fictional example all over you code where you can't tell which argument does what:
+```java
+Thing foo = new Thing(1, 125, Thing.SOMETHING, new Whatchamacallit(17, 676), getStuffManager(StuffManager.ZOMG), true, false, false, maybe);
+```
+I don't find that the Builder pattern creates any signficant value when the created object is mutable. Everything you do through the builder can also be done with the created object directly.
+
+
 
