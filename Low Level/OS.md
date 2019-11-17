@@ -11,6 +11,8 @@ If 20 people per hour arrive at a restaurant, and the same number of people leav
 
 If -- in addition -- there are always an average of 5 people waiting in line to be seated inside the restaurant , then the wait for seating is an average of ____1/4____ hour(s). λ=20/hour and L=5, so W=L/λ=5/20 = 1/4 hour.
 
+Queueing theory is based upon the fundamental principle that the system under study is in balance, which means that the average ____input____ rate equals the average ____output____ rate.
+
 ### Scheduling
 Scheduling policies that seem fair may be unfair because processes ____block/suspend____ when they require input, thus giving up the rest of their ____time slice/allotment____.
 
