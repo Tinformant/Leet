@@ -28,6 +28,12 @@ The problem with O(1) scheduling is that it is not fair, in the sense that a pro
 (Extra credit) The translation lookaside buffer replaced the segment table on modern processors largely to save ____money____.
 
 ## Filesystem
-If several processes have the same file open, they all share the same ____kernel____ descriptor for the file. If every process used a different one to write to the same file, then output could potentially be ____lost/overwritten____.
+If one device in linux is opened by two processes
+* Different ____process____ file descriptors 
+* same ____kernel____ file descriptor. 
 
-If one device in linux is opened by two processes, these processes have different ____process____ file descriptors but the same ____kernel____ file descriptor. If two processes write to the same file descriptor at the same time, writes are done one at a time. To describe this situation, we say that "write is ____atomic____". We can force sections of code to be effectively ____atomic____ by surrounding each section with ____mutex locks____.
+If every process used a different one to write to the same file, then output could potentially be ____lost/overwritten____.
+
+If two processes write to the same file descriptor at the same time, writes are done one at a time. To describe this situation, we say that "write is ____atomic____". We can force sections of code to be effectively ____atomic____ by surrounding each section with ____mutex locks____.
+
+
