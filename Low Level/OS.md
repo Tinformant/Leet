@@ -21,3 +21,6 @@ The Completely Fair scheduler differs from round robin and O(1) in that the proc
 A scheduler is called ____fair____ if every process in the run queue receives the same amount of time. In O(1) scheduling, every process gets one time slice per ____epoch____. This is not considered ____fair____ because it does not compensate for time a process spends ____waiting/sleeping____ for other events. The ____completely fair____ scheduler gives such processes extra time.
 
 The ____O(1)____ scheduler for linux minimizes computation at the expense of non-optimal ____fairness____. The main feature of this scheduler is that every process in the run queue gets a constant amount of runtime per ____epoch/slice____.
+
+The problem with O(1) scheduling is that it is not fair, in the sense that a process that blocks waiting for I/O gets ____less____ CPU time than a process that does not.
+(Extra credit) The translation lookaside buffer replaced the segment table on modern processors largely to save ____money____.
