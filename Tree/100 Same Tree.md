@@ -17,6 +17,7 @@ public boolean isSameTree(TreeNode p, TreeNode q) {
 TODO iterative solution
 
 #### 101 Symmetric Tree
+Recursive Solution
 ```java
 boolean isMirror (TreeNode left, TreeNode right) {
         if (left == null && right == null)
@@ -34,3 +35,5 @@ public boolean isSymmetric(TreeNode root) {
     return isMirror(root.left, root.right);
 }
 ```
+TODO iterative solution
+
