@@ -16,7 +16,7 @@ public User (String firstName, String lastName, int age){ ...   }
 public User (String firstName, String lastName){ ...    }
 ```
 ### Builder Pattern
-```
+```java
 public class User 
 {
     //All final attributes
@@ -92,7 +92,7 @@ public class User
         }
     }
 }
-
+```
 How to use:
 ```java
 public static void main(String[] args) {
