@@ -45,28 +45,7 @@ Queueing theory is based upon the fundamental principle that the system under st
 
 (Extra credit) The translation lookaside buffer replaced the segment table on modern processors largely to save ____money____.
 
-## Memory Address
-In an operating system, ____internal____ fragmentation refers to unused space in the memory space of the requesting process, while ____external____ fragmentation refers to unused space outside the requesting process in the operating system.
-
-From the point of view of a process, memory fragmentation of the frame table is called ____external____ fragmentation, while fragmentation due to malloc is called ____internal____ fragmentation. From the operating system's point of view, fragmentation of the frame table is ____internal____.
-## Filesystem
-If one device in linux is opened by two processes
-* Different ____process____ file descriptors 
-* same ____kernel____ file descriptor. 
-
-If every process used a different one to write to the same file, then output could potentially be ____lost/overwritten____.
-
-If two processes write to the same file descriptor at the same time, writes are done one at a time. To describe this situation, we say that "write is ____atomic____". We can force sections of code to be effectively ____atomic____ by surrounding each section with ____mutex locks____.
-
-The fact that multiple processes share the same kernel descriptor for the same file means that output from the processes is appended to the file in ____time order/sequence____. If multiple processes write to independent kernel descriptors, then the content of the file is determined by the __last/latest__ process to close it.
-
-### Inode
-Every file in a linux filesystem is described by an ____inode____ that describes the owner, group, protection, and location of blocks in the file. Inode of a file does not contain the file's ____name____. Instead, the file's ____name______ is contained in a ____directory____ that maps its inode number to its ____name____.
-
-The location of the first few blocks of the file are recorded directly inside the inode, while subsequent blocks are located by ____indirection____ in which a block is re-interpreted as an array of ____pointers____ to blocks. Thus a file is logically a list but physically very similar to a(n) ____array____, in the sense that access to any block is O(1).
-
-In order to create a file one must initialize these and also mark the disk space required as ____used____. This is typically done through the use of ____bit/binary____ vectors.
-
+## Virtual Memory
 ### Page
 ____Page____ can mean
 1. how ____virtual/process____ memory is managed.
@@ -88,6 +67,35 @@ The translation lookaside buffer maps from ____logical/process/page____ memory a
 The structure of a modern linux filesystem is largely based upon the existence of the ____paging____ system; crucial structures are updated quickly because they are always in ____memory____.
 
 Modern memory addressing uses ____hashing____ to represent sparse maps, and ____caching____ to represent dense maps. Segments are utilized to decrease the amount of information one must store about each memory ____frame/page____.
+
+### Fragmentation
+memory is broken up into segments with gaps between them; must find a "fragment" big enough for each use. 
+* Internal fragmentation: processes must allocate more memory than needed.
+* External fragmentation: unused memory lies in small fragments in the global memory map, between processes
+
+From the point of view of a process, memory fragmentation of the frame table is called ____external____ fragmentation, while fragmentation due to malloc is called ____internal____ fragmentation. From the operating system's point of view, fragmentation of the frame table is ____internal____.
+
+
+
+
+## Filesystem
+If one device in linux is opened by two processes
+* Different ____process____ file descriptors 
+* same ____kernel____ file descriptor. 
+
+If every process used a different one to write to the same file, then output could potentially be ____lost/overwritten____.
+
+If two processes write to the same file descriptor at the same time, writes are done one at a time. To describe this situation, we say that "write is ____atomic____". We can force sections of code to be effectively ____atomic____ by surrounding each section with ____mutex locks____.
+
+The fact that multiple processes share the same kernel descriptor for the same file means that output from the processes is appended to the file in ____time order/sequence____. If multiple processes write to independent kernel descriptors, then the content of the file is determined by the __last/latest__ process to close it.
+
+### Inode
+Every file in a linux filesystem is described by an ____inode____ that describes the owner, group, protection, and location of blocks in the file. Inode of a file does not contain the file's ____name____. Instead, the file's ____name______ is contained in a ____directory____ that maps its inode number to its ____name____.
+
+The location of the first few blocks of the file are recorded directly inside the inode, while subsequent blocks are located by ____indirection____ in which a block is re-interpreted as an array of ____pointers____ to blocks. Thus a file is logically a list but physically very similar to a(n) ____array____, in the sense that access to any block is O(1).
+
+In order to create a file one must initialize these and also mark the disk space required as ____used____. This is typically done through the use of ____bit/binary____ vectors.
+
 
 ### I/O
 There are two kinds of buffering associated with I/O: one kind in the ____process____ and another in the ____kernel/IO subsystem____. The one in the ____kernel/IO subsystem____ allows one to write character output to ____block____ devices. The one in the ____process____ calls one write for several printf calls.
