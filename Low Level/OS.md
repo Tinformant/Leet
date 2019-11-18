@@ -14,8 +14,12 @@ The problem with O(1) scheduling is that it is not fair, in the sense that a pro
 
 The completely fair scheduler attempts to give each process in the run queue the ____same____ time per scheduling epoch, while in the O(1) scheduler, processes get differing times based upon how much ____I/O____ they perform.
 
+An M/M/1 queue with arrival rate λ and processing rate μ is only in steady state if ____λ/μ____ < 1. Both 'M's in the above stand for ____memoryless____, which means that a previous arrival time or processing time does not affect the next.
+
+An M/M/1 queue is a device where job arrivals and service times conform to ____memoryless/exponential____ statistical distributions. Since real service times are not ____memoryless____, the theory of M/M/1 queues rather consistently ____underestimates____ the average time in system for a request.
+
 ### Little's laws
-* Assuming that the system is in ____balance/equilibrium____ so that the ____input____ and output of the system occur at the same ____average____ rate. If λ is an arrival rate, then ____1/λ____ represents the corresponding time between arrivals. M/M/1 queues assume in addition that arrivals and processing have ____exponential/memoryless____ statistical distributions.
+* Assuming that the system is in __balance/equilibrium__ so that the ____input____ and output of the system occur at the same ____average____ rate. If λ is an arrival rate, then ____1/λ____ represents the corresponding time between arrivals. M/M/1 queues assume in addition that arrivals and processing have ____exponential/memoryless____ statistical distributions.
 * average time in system
 * average number of jobs waiting for completion
 * average arrival rate
