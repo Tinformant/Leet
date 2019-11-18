@@ -1,7 +1,7 @@
 ### Buddy system
 The buddy system guarantees that if one frees and then reallocates the same amount of storage, one will always get the __same__ memory back. This is because the freed block is linked at the __head/beginning__ of the appropriate free list.
 
-## Scheduling & Queueing
+## Scheduling
 A scheduler is called ____fair____ if every process in the run queue receives the same amount of time. In O(1) scheduling, every process gets one time slice per ____epoch____. This is not considered ____fair____ because it does not compensate for time a process spends ____waiting/sleeping____ for other events. The ____completely fair____ scheduler gives such processes extra time. Scheduling policies that seem fair may be unfair because processes ____block/suspend____ when they require input, thus giving up the rest of their ____time slice/allotment____.
 
 ### O(1) Scheduler
@@ -16,6 +16,7 @@ The completely fair scheduler attempts to give each process in the run queue the
 
 The Completely Fair scheduler differs from round robin and O(1) in that the process that runs next is the one that has spent the ____least____ time running in recent history. By contrast, round-robin and O(1) determine who runs next from a ____queue/list/set____ of ready processes, where each one gets a time slice length based upon its ____priority____.
 
+## Queueing
 ### M/M/1
 An M/M/1 queue with arrival rate λ and processing rate μ is only in steady state if ____λ/μ____ < 1. 
 * M = Memoryless
