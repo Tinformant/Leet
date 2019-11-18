@@ -56,18 +56,20 @@ If two processes write to the same file descriptor at the same time, writes are 
 The fact that multiple processes share the same kernel descriptor for the same file means that output from the processes is appended to the file in ____time order/sequence____. If multiple processes write to independent kernel descriptors, then the content of the file is determined by the __last/latest__ process to close it.
 
 ### Inode
-An inode of a file does not contain the file's ____name____. Instead, the file's ____name______ is contained in a ____directory____ that maps its inode number to its ____name____.
-
-A file's identity is determined by its ____inode____, which contains information about its owner but not its ____name____. The latter is instead contained in the ____directory____ entry for the file.
-
 Every file in a linux filesystem is described by an ____inode____ that describes the owner, group, protection, and location of blocks in the file. The location of the first few blocks of the file are recorded directly inside the inode, while subsequent blocks are located by ____indirection____ in which a block is re-interpreted as an array of ____pointers____ to blocks. Thus a file is logically a list but physically very similar to a(n) ____array____, in the sense that access to any block is O(1).
 
-In a file system, a(n) ____inode____ documents the location of a file, while a(n) ____directory____ documents its name. In order to create a file one must initialize these and also mark the disk space required as ____used____. This is typically done through the use of ____bit/binary____ vectors.
+An inode of a file does not contain the file's ____name____. Instead, the file's ____name______ is contained in a ____directory____ that maps its inode number to its ____name____.
+
+In order to create a file one must initialize these and also mark the disk space required as ____used____. This is typically done through the use of ____bit/binary____ vectors.
 
 ### Page
 ____Page____ can mean
 1. how ____virtual/process____ memory is managed.
 2. how disk files are ____read/written____.
+
+The disk subsystem and the virtual memory subsystem both use the concept of ____paging____ things to and from memory, but the disk subsystem uses ____kernel____ memory while the virtual memory subsystem utilizes ____process____ memory.
+
+The Ext2 filesystem and its derivatives only function properly because of the ____paging_____ subsystem for the raw disk device.
 
 A page of memory in a process maps to a ____frame____ of memory in the operating system.
 The function malloc allocates one ____page/frame____ of memory at a time from the operating system, and then packages it for your use. On average, a call to malloc returns ____more____ memory than you requested. The justification for this apparent waste is that as a result, malloc and free can run in ____constant/O(1)____ time.
