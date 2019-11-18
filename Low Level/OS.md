@@ -14,7 +14,11 @@ The problem with O(1) scheduling is that it is not fair, in the sense that a pro
 
 The completely fair scheduler attempts to give each process in the run queue the ____same____ time per scheduling epoch, while in the O(1) scheduler, processes get differing times based upon how much ____I/O____ they perform.
 
-An M/M/1 queue with arrival rate λ and processing rate μ is only in steady state if ____λ/μ____ < 1. Both 'M's in the above stand for ____memoryless____, which means that a previous arrival time or processing time does not affect the next.
+#### M/M/1
+An M/M/1 queue with arrival rate λ and processing rate μ is only in steady state if ____λ/μ____ < 1. 
+* M = Memoryless
+* 1st M: independent previous arrival time
+* 2nd M: independent processing time
 
 An M/M/1 queue is a device where job arrivals and service times conform to ____memoryless/exponential____ statistical distributions. Since real service times are not ____memoryless____, the theory of M/M/1 queues rather consistently ____underestimates____ the average time in system for a request.
 
