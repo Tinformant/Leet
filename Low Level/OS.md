@@ -61,9 +61,9 @@ If two processes write to the same file descriptor at the same time, writes are 
 The fact that multiple processes share the same kernel descriptor for the same file means that output from the processes is appended to the file in ____time order/sequence____. If multiple processes write to independent kernel descriptors, then the content of the file is determined by the __last/latest__ process to close it.
 
 ### Inode
-Every file in a linux filesystem is described by an ____inode____ that describes the owner, group, protection, and location of blocks in the file. The location of the first few blocks of the file are recorded directly inside the inode, while subsequent blocks are located by ____indirection____ in which a block is re-interpreted as an array of ____pointers____ to blocks. Thus a file is logically a list but physically very similar to a(n) ____array____, in the sense that access to any block is O(1).
+Every file in a linux filesystem is described by an ____inode____ that describes the owner, group, protection, and location of blocks in the file. Inode of a file does not contain the file's ____name____. Instead, the file's ____name______ is contained in a ____directory____ that maps its inode number to its ____name____.
 
-An inode of a file does not contain the file's ____name____. Instead, the file's ____name______ is contained in a ____directory____ that maps its inode number to its ____name____.
+The location of the first few blocks of the file are recorded directly inside the inode, while subsequent blocks are located by ____indirection____ in which a block is re-interpreted as an array of ____pointers____ to blocks. Thus a file is logically a list but physically very similar to a(n) ____array____, in the sense that access to any block is O(1).
 
 In order to create a file one must initialize these and also mark the disk space required as ____used____. This is typically done through the use of ____bit/binary____ vectors.
 
