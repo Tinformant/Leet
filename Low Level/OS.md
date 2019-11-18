@@ -36,4 +36,5 @@ If every process used a different one to write to the same file, then output cou
 
 If two processes write to the same file descriptor at the same time, writes are done one at a time. To describe this situation, we say that "write is ____atomic____". We can force sections of code to be effectively ____atomic____ by surrounding each section with ____mutex locks____.
 
+The fact that multiple processes share the same kernel descriptor for the same file means that output from the processes is appended to the file in ____time order/sequence____. If multiple processes write to independent kernel descriptors, then the content of the file is determined by the __last/latest__ process to close it.
 
