@@ -92,6 +92,6 @@ One reason that disk update is lazy is that it is ____faster/more efficient____ 
 
 In linux, devices can be
 1. block devices: only write and read large chunks of data.
-2. character devices:  that can write one character at a time. A character can only be written to a ____block____ device by ____reading____ the destination ____block____ first.
+2. character devices:  that can write one character at a time. A character can only be written to a block device by ____reading the destination block____ first.
 
 
