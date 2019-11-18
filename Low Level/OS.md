@@ -14,6 +14,8 @@ The problem with O(1) scheduling is that it is not fair, in the sense that a pro
 
 The completely fair scheduler attempts to give each process in the run queue the ____same____ time per scheduling epoch, while in the O(1) scheduler, processes get differing times based upon how much ____I/O____ they perform.
 
+A scheduler is fair if every process in the run queue receives the same ____amount of time____. "Completely fair scheduling" tries to ensure this by storing the run queue as a red-black tree of processes whose search key is the ____time____ for which the process has executed so far. At each scheduling step, the process with the ____least/leftmost____ key is executed, and then moved to where it then belongs in the tree.
+
 #### M/M/1
 An M/M/1 queue with arrival rate λ and processing rate μ is only in steady state if ____λ/μ____ < 1. 
 * M = Memoryless
@@ -62,5 +64,20 @@ Every file in a linux filesystem is described by an ____inode____ that describes
 
 In a file system, a(n) ____inode____ documents the location of a file, while a(n) ____directory____ documents its name. In order to create a file one must initialize these and also mark the disk space required as ____used____. This is typically done through the use of ____bit/binary____ vectors.
 
+### Page
+____Page____ can mean
+1. how ____virtual/process____ memory is managed.
+2. how disk files are ____read/written____.
 
+A page of memory in a process maps to a ____frame____ of memory in the operating system.
+The function malloc allocates one ____page/frame____ of memory at a time from the operating system, and then packages it for your use. On average, a call to malloc returns ____more____ memory than you requested. The justification for this apparent waste is that as a result, malloc and free can run in ____constant/O(1)____ time.
 
+A memory page/block that has been changed since it was read from disk virtual memory is called ____dirty____ and must be ____flushed/written____ to the disk before the memory can be reused.
+
+Virtual memory and file paging use the same strategy to deal with the situation in which the page cache is ____full____; the cache entry that was ____least recently used/accessed____ is reused to cache a new page. If a page is ____dirty____ it is written to disk first.
+
+The translation lookaside buffer maps from ____logical/process/page____ memory addresses to ____physical/frame____ memory addresses. This mapping associates what we call ______pages____ in the process with what we call ____frames____ in the operating system.
+
+The structure of a modern linux filesystem is largely based upon the existence of the ____paging____ system; crucial structures are updated quickly because they are always in ____memory____.
+
+Modern memory addressing uses ____hashing____ to represent sparse maps, and ____caching____ to represent dense maps. Segments are utilized to decrease the amount of information one must store about each memory ____frame/page____.
