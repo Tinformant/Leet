@@ -1,4 +1,5 @@
 #### 0094 Binary Tree Inorder Traversal
+An simple inorder traversal.
 ```java
 List<Integer> out = new ArrayList<>();
 void inOrder (TreeNode node) {
@@ -14,6 +15,7 @@ public List<Integer> inorderTraversal(TreeNode root) {
 }
 ```
 #### 0102 Binary Tree Level Order Traversal
+A simple bfs.
 ```java
 public List<List<Integer>> levelOrder(TreeNode root) {
     List<List<Integer>> ans = new ArrayList<List<Integer>>();
@@ -36,5 +38,19 @@ public List<List<Integer>> levelOrder(TreeNode root) {
         ans.add(curLevel);
     }
     return ans;
+}
+```
+
+#### 112 Path Sum
+```java
+public boolean hasPathSum(TreeNode root, int sum) {
+    if (root == null) 
+        return false;
+    
+    if (root.left == null && root.right == null)
+        if (root.val == sum)
+            return true;
+    
+    return hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val);
 }
 ```
