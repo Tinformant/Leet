@@ -54,3 +54,4 @@ public boolean hasPathSum(TreeNode root, int sum) {
     return hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val);
 }
 ```
+TODO: bfs and dfs
