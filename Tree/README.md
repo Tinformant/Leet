@@ -1,3 +1,64 @@
+## Binary Search Tree
+* Left child less than parent
+* Right child greater than parent
+* The left and right subtree each must also be a BST.
+A binary tree has at most two kids.
+```java
+class BinaryTree {
+    Node root;
+
+    BinaryTree(int key) {
+        root = new Node(key);
+    }
+    
+    class Node {
+        int key;
+        Node left, right;
+
+        Node (int item) {
+            key = item;
+            left = right = null;
+        }
+    }
+}
+```
+
+
+### Time Complexity
+* Insert, remove and search: average case O(logn), worst case O(n)
+
+
+
+## Tree Traversal
+### Depth First Traversal
+1. Inorder: left -> root -> right
+2. Preorder: root -> left -> right
+3. Postorder: left -> right -> root
+
+```java
+void printInOrder (Node node) {
+    if (node == null) return;
+    
+    printInOrder(node.left);
+    System.out.println(node.value);
+    printInOrder(node.right);
+}
+void printPreOrder (Node node) {
+    if (node == null) return;
+    
+    System.out.println(node.value);
+    printPreOrder(node.right);
+    printPreOrder(node.left);
+}
+void printPostOrder (Node node) {
+    if (node == null) return;
+
+    printPreOrder(node.left);
+    printPreOrder(node.right);
+    System.out.println(node.value);
+}
+```
+
 TODO: iterative DFS
 
 Good source: https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/
