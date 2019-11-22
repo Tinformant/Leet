@@ -20,9 +20,6 @@ public int numTrees(int n) {
     return dp[n];
 }
 ```
-For the double for loop:
-```
+#### For the double for loop
 The outer loop fills up the dp array. For example, when length = 2, it is calculating the number of unique trees when n = 2.
-When length = 2, the inner loop decides which number (from 1 to length) will be the root of a tree. Variable right and left mean the right and left brances of a BST. Thus, the total number of BST when 1 is the root is 
-    # of right branches x # of left branches
-```
+When length = 2, the inner loop decides which number (from 1 to length) will be the root of a tree. Variable right and left mean the right and left brances of a BST. Thus, the total number of BST given a cerntain number is the root is __num of right branches x num of left branches__
