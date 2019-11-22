@@ -10,16 +10,20 @@ public int numTrees(int n) {
     // n = 1;
     dp[1] = 1;
     
-    for (int length = 2; length <= n; length++) {
-        for (int root = 1; root <= length; root++) {
+    for (int curN = 2; curN <= n; curN++) {
+        for (int root = 1; root <= curN; root++) {
             int left = dp[root - 1];
-            int right = dp[length - root];
-            dp[length] += left * right;
+            int right = dp[curN - root];
+            dp[curN] += left * right;
         }
     }
     return dp[n];
 }
 ```
-#### For the double for loop
-The outer loop fills up the dp array. For example, when length = 2, it is calculating the number of unique trees when n = 2.
-When length = 2, the inner loop decides which number (from 1 to length) will be the root of a tree. Variable right and left mean the right and left brances of a BST. Thus, the total number of BST given a cerntain number is the root is __num of right branches x num of left branches__
+dp is the number of unique BST at different length. Say, when filling up dp[2], the inner loop decides which number (from 1 to curN) will be the root of a tree. Variables right and left mean the right and left brances of a BST. Thus, the total number of BST given a cerntain number is the root is __num of right branches x num of left branches__
+
+When curN = 3, there are 3 cases:
+1. when 1 is the root, total num of BST = __num of right branches x num of left branches__
+2. when 2 is the root, total num of BST = __num of right branches x num of left branches__
+3. when 3 is the root, total num of BST = __num of right branches x num of left branches__
+Total number of BST for n = 3 is the sum of the above three.
