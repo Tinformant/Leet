@@ -26,4 +26,5 @@ When curN = 3, there are 3 cases:
 1. when 1 is the root, total num of BST = __num of right branches x num of left branches__
 2. when 2 is the root, total num of BST = __num of right branches x num of left branches__
 3. when 3 is the root, total num of BST = __num of right branches x num of left branches__
+
 Total number of BST for n = 3 is the sum of the above three.
