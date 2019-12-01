@@ -51,6 +51,10 @@ ____Page____ can mean
 1. how ____virtual/process____ memory is managed.
 2. how disk files are ____read/written____.
 
+(EXTRA CREDIT ) In allocating a new block for a file, the filesystem driver first looks for blocks whose "used" descriptors are currently located in the ____page table cache____, to increase performance.
+
+Although linux continues to use segment descriptors internally, modern processors use ____page____ descriptors for the same purpose. Very efficient data structures are required in the OS so that ____page faults____ can be processed as quickly as possible. Each ____page____ can be read/write or ____read-only____.
+
 The disk subsystem and the virtual memory subsystem both use the concept of ____paging____ things to and from memory, but the disk subsystem uses ____kernel____ memory while the virtual memory subsystem utilizes ____process____ memory.
 
 The Ext2 filesystem and its derivatives only function properly because of the ____paging_____ subsystem for the raw disk device.
@@ -67,6 +71,8 @@ The translation lookaside buffer maps from ____logical/process/page____ memory a
 The structure of a modern linux filesystem is largely based upon the existence of the ____paging____ system; crucial structures are updated quickly because they are always in ____memory____.
 
 Modern memory addressing uses ____hashing____ to represent sparse maps, and ____caching____ to represent dense maps. Segments are utilized to decrease the amount of information one must store about each memory ____frame/page____.
+
+The ____LRU____ reclamation strategy is commonly used to recover pages in the disk page table. This has one weakness; it does not deal efficiently with ____(long) loops____.
 
 ### Fragmentation
 memory is broken up into segments with gaps between them; must find a "fragment" big enough for each use. 
