@@ -121,4 +121,6 @@ In linux, devices can be
 
 The structure of a linux filesystem is based upon a contractual arrangement between the ____filesystem driver____ and the ____pager____. The former determines the structure of disk, while the latter makes disk updates ____more efficient____.
 
+### Hashes
+Inside an operating system, most structures are ____arrays____. Dense ones are sometimes ____cached____, while sparse ones are sometimes ____hashed____.
 
