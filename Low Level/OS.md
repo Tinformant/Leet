@@ -2,14 +2,18 @@
 The buddy system guarantees that if one frees and then reallocates the same amount of storage, one will always get the __same__ memory back. This is because the freed block is linked at the __head/beginning__ of the appropriate free list.
 
 ## Scheduling
-A scheduler is called ____fair____ if every process in the run queue receives the same amount of time. In O(1) scheduling, every process gets one time slice per ____epoch____. This is not considered ____fair____ because it does not compensate for time a process spends ____waiting/sleeping____ for other events. The ____completely fair____ scheduler gives such processes extra time. Scheduling policies that seem fair may be unfair because processes ____block/suspend____ when they require input, thus giving up the rest of their ____time slice/allotment____.
+A scheduler is called ____fair____ if every process in the run queue receives the same amount of time. 
 
 ### O(1) Scheduler
+In O(1) scheduling, every process gets one time slice per ____epoch____. This is not considered ____fair____ because it does not compensate for time a process spends ____waiting/sleeping____ for other events.
+
 The ____O(1)____ scheduler for linux minimizes computation at the expense of non-optimal ____fairness____. The main feature of this scheduler is that every process in the run queue gets a constant amount of runtime per ____epoch/slice____.
 
 O(1) scheduling is unfair: a process that blocks waiting for I/O gets ____less____ CPU time than a process that does not.
 
 ### Completely Fair Scheduler
+The ____completely fair____ scheduler gives such processes extra time. Scheduling policies that seem fair may be unfair because processes ____block/suspend____ when they require input, thus giving up the rest of their ____time slice/allotment____.
+
 Completely fair scheduling tries to ensure fairness by storing the run queue as a red-black tree of processes whose search key is the ____time____ for which the process has executed so far. At each scheduling step, the process with the ____least/leftmost____ key is executed, and then moved to where it then belongs in the tree.
 
 The completely fair scheduler attempts to give each process in the run queue the ____same____ time per scheduling epoch, while in the O(1) scheduler, processes get differing times based upon how much ____I/O____ they perform.
