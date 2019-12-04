@@ -79,6 +79,7 @@ title({'Given a overdamped system, margin PDF and CDF of A2';' '});legend('pdf',
 ```
 
 ### Question 5
+Test code:
 ```matlab
 % PDF of t = 1s
 t = 1;
@@ -94,4 +95,19 @@ hold on;
 yyaxis left; plot(xI,pI,'LineWidth',2); set(gca,'FontSize',12);
 yyaxis right; plot(xI,cI,'--o','LineWidth',1.5);
 title({'Given t = 1s, PDF and CDF of i(s)';' '});legend('pdf','cdf','Location','northwest');
+```
+For simulating the PDFs and CDFs:
+```
+function [Result_pdf,Result_cdf,X] = pcdf(Data, Num_Bins, X_Max, X_Min)
+    Bin_Size = (X_Max - X_Min)/Num_Bins;
+    Edge = zeros(1,Num_Bins+1);
+    Edge(1,Num_Bins+1) = X_Max;
+    X = zeros(1,Num_Bins);
+    for i = 1:Num_Bins
+       Edge(1,i) = X_Min + (i-1)*Bin_Size;
+       X(1,i) = X_Min + (i-0.5)*Bin_Size;
+    end
+    Result_pdf = histcounts(Data, Edge(1,:),'Normalization','pdf');
+    Result_cdf = histcounts(Data, Edge(1,:),'Normalization','cdf');
+end
 ```
