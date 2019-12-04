@@ -77,3 +77,21 @@ yyaxis left; plot(xA2,pA2,'LineWidth',2); set(gca,'FontSize',12);
 yyaxis right; plot(xA2,cA2,'--o','LineWidth',1.5);
 title({'Given a overdamped system, margin PDF and CDF of A2';' '});legend('pdf','cdf','Location','northwest');
 ```
+
+### Question 5
+```matlab
+% PDF of t = 1s
+t = 1;
+i_over = A1.*exp(S1*t) + A2.*exp(S2*t);
+i_under = exp(-Data_alpha(Data == 0)*t).*(AA1.*cos(omega_D*t)+AA2.*sin(omega_D*t));
+i_t = [i_over;i_under];
+[pI,cI,xI] = pcdf(i_t,50,max(i_t)+0.1*(max(i_t)-min(i_t)),min(i_t)-0.1*(max(i_t)-min(i_t)));
+
+f(8,1) = figure;
+yyaxis left; ylabel('Probablity Density Function'); xlabel('Sample Value');
+yyaxis right; ylabel('Cumulative Density Function');
+hold on;
+yyaxis left; plot(xI,pI,'LineWidth',2); set(gca,'FontSize',12);
+yyaxis right; plot(xI,cI,'--o','LineWidth',1.5);
+title({'Given t = 1s, PDF and CDF of i(s)';' '});legend('pdf','cdf','Location','northwest');
+```
