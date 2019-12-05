@@ -21,7 +21,6 @@ fprintf('the probability of underdamped system is %fnn', (Num Data-sum(Data))/Nu
 ```
 
 ### Question 3
-Code
 ```matlab
 S1 = -Data_alpha(Data == 1) + sqrt(Data_alpha(Data == 1).^2 - Data_omega(Data == 1).^2);
 S2 = -Data_alpha(Data == 1) - sqrt(Data_alpha(Data == 1).^2 - Data_omega(Data == 1).^2);
@@ -115,7 +114,7 @@ yyaxis right; plot(xAA2,cAA2,'--o','LineWidth',1.5);
 title({'Given a underdamped system, margin PDF and CDF of A2';' '});legend('pdf','cdf','Location','northwest');
 ```
 ### Question 5
-Test code:
+For testing:
 ```matlab
 % PDF of t = 1s
 t = 1;
@@ -132,7 +131,7 @@ yyaxis left; plot(xI,pI,'LineWidth',2); set(gca,'FontSize',12);
 yyaxis right; plot(xI,cI,'--o','LineWidth',1.5);
 title({'Given t = 1s, PDF and CDF of i(s)';' '});legend('pdf','cdf','Location','northwest');
 ```
-For simulating the PDFs and CDFs:
+For simulating PDF and CDF:
 ```
 function [Result_pdf,Result_cdf,X] = pcdf(Data, Num_Bins, X_Max, X_Min)
     Bin_Size = (X_Max - X_Min)/Num_Bins;
