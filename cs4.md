@@ -1,7 +1,4 @@
-## Computer Set 4
-### Question 1
-For PDF or CDF is about the probability of random variables within a certain range. It is meaningless to analyze a critical condition. 
-
+## Computer Set 4 Code
 ### Question 2
 ```matlab
 Num Data = 250000; 
@@ -77,7 +74,46 @@ yyaxis left; plot(xA2,pA2,'LineWidth',2); set(gca,'FontSize',12);
 yyaxis right; plot(xA2,cA2,'--o','LineWidth',1.5);
 title({'Given a overdamped system, margin PDF and CDF of A2';' '});legend('pdf','cdf','Location','northwest');
 ```
+### Question 4
+```matlab
+omega_D = sqrt(Data_omega(Data == 0).^2 - Data_alpha(Data == 0).^2);
+L2 = Data_L(Data == 0); R2 = Data_R(Data == 0); AA = zeros(2,length(omega_D));
+alpha = Data_alpha(Data == 0);
+for i_t = 1:length(omega_D)
+    AA(:,i_t) = [1,0;-alpha(i_t,1),omega_D(i_t,1)]\[I0; -1/L2(i_t,1)*(R2(i_t,1)*I0+V0)];
+end
+AA = AA';
+AA1 = AA(:,1); AA2 = AA(:,2); 
 
+[pWd,cWd,xWd] = pcdf(omega_D,50,max(omega_D)+0.1*(max(omega_D)-min(omega_D)),
+        min(omega_D)-0.1*(max(omega_D)-min(omega_D)));
+[pAA1,cAA1,xAA1] = pcdf(AA1,100,2,0);
+[pAA2,cAA2,xAA2] = pcdf(AA2,50,100,-100);
+
+f(5,1) = figure;
+yyaxis left; ylabel('Probablity Density Function'); xlabel('Sample Value');
+yyaxis right; ylabel('Cumulative Density Function');
+hold on;
+yyaxis left; plot(xWd,pWd,'LineWidth',2); set(gca,'FontSize',12);
+yyaxis right; plot(xWd,cWd,'--o','LineWidth',1.5);
+title({'Given a underdamped system, margin PDF and CDF of \omega_d';' '});legend('pdf','cdf','Location','northwest');
+
+f(6,1) = figure;
+yyaxis left; ylabel('Probablity Density Function'); xlabel('Sample Value');
+yyaxis right; ylabel('Cumulative Density Function');
+hold on;
+yyaxis left; plot(xAA1,pAA1,'LineWidth',2); set(gca,'FontSize',12);
+yyaxis right; plot(xAA1,cAA1,'--o','LineWidth',1.5);
+title({'Given a underdamped system, margin PDF and CDF of A1';' '});legend('pdf','cdf','Location','northwest');
+
+f(7,1) = figure;
+yyaxis left; ylabel('Probablity Density Function'); xlabel('Sample Value');
+yyaxis right; ylabel('Cumulative Density Function');
+hold on;
+yyaxis left; plot(xAA2,pAA2,'LineWidth',2); set(gca,'FontSize',12);
+yyaxis right; plot(xAA2,cAA2,'--o','LineWidth',1.5);
+title({'Given a underdamped system, margin PDF and CDF of A2';' '});legend('pdf','cdf','Location','northwest');
+```
 ### Question 5
 Test code:
 ```matlab
