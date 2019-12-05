@@ -72,7 +72,9 @@ title({'Given a overdamped system, margin PDF and CDF of A2';' '});legend('pdf',
 ### Question 4
 ```matlab
 omega_D = sqrt(Data_omega(Data == 0).^2 - Data_alpha(Data == 0).^2);
-L2 = Data_L(Data == 0); R2 = Data_R(Data == 0); AA = zeros(2,length(omega_D));
+L2 = Data_L(Data == 0); 
+R2 = Data_R(Data == 0); 
+AA = zeros(2,length(omega_D));
 alpha = Data_alpha(Data == 0);
 for i_t = 1:length(omega_D)
     AA(:,i_t) = [1,0;-alpha(i_t,1),omega_D(i_t,1)]\[I0; -1/L2(i_t,1)*(R2(i_t,1)*I0+V0)];
