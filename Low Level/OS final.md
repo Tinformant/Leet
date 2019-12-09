@@ -34,8 +34,6 @@ What is a block?
 * Just a chunk of bits.  
 *Typically, inodes and blocks are striped into alternating stripes on the disk: 
 
-
-
 ## super-block
 * A descriptor with pointers to  
 * All groups of inodes 
@@ -43,4 +41,13 @@ What is a block?
 * What directory is root ("/") 
 * Duplicated all over the disk.  
 * If it is lost, disk data becomes meaningless! 
+
+## file  
+A pair: <inode, sequence of blocks> 
+Inode identified as a number.  
+inode is an offset into a descriptor table; descriptor tells where the blocks are and how to find them.  
+Better to say "array" of inodes:  
+We require O(1) random access by inode number.  
+Better to say: "array" of blocks.  
+We require O(1) random access by block number.  
 
