@@ -15,3 +15,14 @@ To flush the journal:
 Because the journal is a contiguous piece of memory, we can write it to the disk (in another place) in one operation.  
 
 Use this -- whenever we lose power -- to restore consistency. 
+
+
+### Unjournaled VS journaled
+unjournaled
+1. fast read
+2. lasy write
+3. fsck takes forever 
+
+journaled
+
+
