@@ -23,6 +23,24 @@ unjournaled
 2. lasy write
 3. fsck takes forever 
 
-journaled
+## Inode & Block
+"Identity node". Contains all attributes of a file or directory: 
+* owner
+* group,  
+* protection 
+* where its blocks are located.  
+* Does not contain the name. Found by number, not name.  
+What is a block?  
+* Just a chunk of bits.  
+*Typically, inodes and blocks are striped into alternating stripes on the disk: 
 
+
+
+## super-block
+* A descriptor with pointers to  
+* All groups of inodes 
+* All block groups 
+* What directory is root ("/") 
+* Duplicated all over the disk.  
+* If it is lost, disk data becomes meaningless! 
 
