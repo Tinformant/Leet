@@ -23,7 +23,13 @@ unjournaled
 2. lasy write
 3. fsck takes forever 
 
-## Inode & Block
+## Filesystm
+* blocks: contain data.
+* inode: contain information on where the file is.
+* superblock: describe where inodes and blocks are located on disk.
+* directory: a special kind of file that associates file names with file numbers.
+
+## Inode & Block(data)
 "Identity node". Contains all attributes of a file or directory: 
 * owner
 * group,  
