@@ -65,3 +65,8 @@ w: can write it/can create and delete files in it
 x: can execute it as a program/can access things in it if you know their names already
 
 Protection manipulations require that one owns the inode.
+
+### Privilege and Nested Directories
+In order to get to something, must be able to get to it by searching its directory (x), Thus you must have access to all directories in its path.
+
+change it, by modifying its inode. Thus you must have access to the object itself. 
