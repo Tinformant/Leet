@@ -58,7 +58,8 @@ Better to say: "array" of blocks.
 We require O(1) random access by block number.  
 
 ## Protection
+user-group-other
 Protection: Files/Directories
 r: can read it/can ls it
-w: can write it can create and delete files in it 
+w: can write it/can create and delete files in it 
 x: can execute it as a program/can access things in it if you know their names already
