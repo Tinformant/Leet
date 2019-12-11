@@ -57,7 +57,7 @@ We require O(1) random access by inode number.
 Better to say: "array" of blocks.  
 We require O(1) random access by block number.  
 
-## Protection
+## File/Directory Permission
 user-group-other
 Protection: Files/Directories
 r: can read it/can ls it
