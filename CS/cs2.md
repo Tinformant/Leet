@@ -1,3 +1,4 @@
+# Computer Set 2 Code
 ## Problem 1
 ### Part 1
 Generate a binomial PMF with the probability of p0: 
@@ -107,5 +108,38 @@ function [C,cstd] = get_C(m,p,N,n)
     C = 6e-4*N + H;
     c = 6e-4*N + h;
     cstd = std(c);
+end
+```
+
+## Problem 2
+Test code:
+```matlab
+N = 100000;
+p1 = BerGenerator(N,0.3);
+p2 = BerGenerator(N,0.4);
+p3 = BerGenerator(N,0.6);
+[p,W] = func(p1,p2,p3);
+```
+```matlab
+function [a,p] = BerGenerator(N,p0)
+% generate a column of N random 0 1 series with the probablity of P(x=1)=p0
+    p = 0;
+    if p0>1
+        fprintf("Watch out you probability!!\n");
+    elseif p0<0
+        fprintf("Watch out you probability!!\n"); 
+    else
+        a = rand(1,N);
+        for i=1:N
+            if a(1,i) <= p0 
+                a(1,i) = 1;
+                p = p+1;
+            else
+                a(1,i) = 0;
+            end
+        end
+        a = a';
+        p = p/N;
+    end
 end
 ```
