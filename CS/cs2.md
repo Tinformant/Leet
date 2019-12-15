@@ -1,3 +1,4 @@
+## Problem 1
 Generate a binomial PMF with the probability of p0: 
 ```matlab
 function [S,x] = generateSample(m,p,N,n)
@@ -41,4 +42,4 @@ title('Practical and Theoretical  Binomial Distriubution');
 legend("Practical","Theoretical")
 
 saveas(f, filename);
-```matlab
+```
