@@ -1,4 +1,5 @@
 ## Problem 1
+### Part 1
 Generate a binomial PMF with the probability of p0: 
 ```matlab
 function [S,x] = generateSample(m,p,N,n)
@@ -21,7 +22,7 @@ function [H,h,R,Theo] = get_H(m,p,N,n)
     H = mean(h);
 end
 ```
-Test code for 1-1:
+Test code:
 ```matlab
 % problem_1_3
 clear;
@@ -42,4 +43,25 @@ title('Practical and Theoretical  Binomial Distriubution');
 legend("Practical","Theoretical")
 
 saveas(f, filename);
+```
+### Part 2
+Test code:
+```matlab
+clear;
+tic
+filename = '/Users/jarvis_Mac/Desktop/Data/EE104/Homework/cs02s218/pic/p1_2.png';
+% m is the same m in the problem statement, f means equally divide the probability
+% 0.1-0.9 into f parts, T denotes the threshold when H < 0.05, p is
+% different probability
+
+m = 50; n = 1; f = 5;
+[p, Tmean, Terr] = p1_2(m,f,n);
+
+f = figure;
+errorbar(p,Tmean,Terr)
+xlabel('Probability P');
+ylabel('N of Threshold');
+title('Threshold N vs Different probability');
+
+saveas(f,filename);
 ```
