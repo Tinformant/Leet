@@ -65,3 +65,47 @@ title('Threshold N vs Different probability');
 
 saveas(f,filename);
 ```
+For 20 Monte Carlo trials with p from 0.1 to 0.9:
+```matlab
+function [k, Tmean, Terr] = p1_2(m,f,n)
+% prabability from 0.1 to 0.9, repeat 20 times Monte Carlo
+    k = zeros(f,1);
+    T = zeros(f,20);
+    for j = 1:20
+       for i = 1:f
+            p = i*0.8/(f-1)-0.1;
+            k(i,1) = p;
+            T(i,j) = get_T(m,p,n);   
+       end
+       Tmean = mean(T,2); 
+       Terr = std(T,0,2);
+       t1 = toc;
+       fprintf('interval = %8.5f\n',t1);
+       tic
+    end
+end
+```
+For threshold T to make the Hellinger distance < 0.05:
+```matlab
+function [T,H] = get_T(m,p,n) 
+% get Threshold of the N, while H < 0.05
+    N = 100;
+    H = 1;
+    while (H > 0.05)
+        H = get_H(m,p,N,n);
+        N = N + 5;
+    end
+    T = N;
+end
+```
+### Part 3
+Cost function:
+```matlab
+function [C,cstd] = get_C(m,p,N,n)
+% get the cost function
+    [H,h] = get_H(m,p,N,n);
+    C = 6e-4*N + H;
+    c = 6e-4*N + h;
+    cstd = std(c);
+end
+```
