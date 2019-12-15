@@ -143,3 +143,42 @@ function [a,p] = BerGenerator(N,p0)
     end
 end
 ```
+
+Calculating probability with W = 1:
+```matlab
+function [p,W] = func(p1,p2,p3)
+    W = min([max([p1,p2],[],2),p3],[],2);
+    p = length(find(W == 1))/length(W);
+end
+```
+### Part 4
+Test code 
+```matlab
+N = 100000;
+p1 = BerGenerator(N,0.3);
+p2 = BerGenerator(N,0.4);
+p3 = UnitGenerator(p1,0.9,0.1);
+pp1 = 0.3;pp2 = 0.4;pp3 = 0.6;
+ppp = (pp1*(1-pp2)+pp1*pp2+pp2*(1-pp1))*pp3;
+
+[p,W] = func(p1,p2,p3);
+```
+UnitGenerator:
+```matlab
+function [a,p] = UnitGenerator(pp,p1,p0)
+    N = length(pp);
+    a = rand(N,1);
+    a = a + (((p0/p1)-1)*a).*pp;
+    p = 0;
+    for i=1:N
+        if a(i,1) <= p0 
+            a(i,1) = 1;
+            p = p+1;
+        else
+            a(i,1) = 0;
+        end
+    end
+    p = p/N; 
+end
+```
+
