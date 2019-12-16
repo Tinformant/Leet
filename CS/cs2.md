@@ -23,7 +23,9 @@ function [H,h,R,Theo] = get_H(m,p,N,n)
     H = mean(h);
 end
 ```
+Test code:
 ```matlab
+tic
 filename = '/Users/Sir/Desktop/Data/EE104/Homework/pic/p1_1.png';
 % H is Hellinger Distance of the practical result and theoretical result
 % R is the simulation of the binomial distribution
@@ -41,6 +43,7 @@ saveas(f, filename);
 ### Part 2
 Test code:
 ```matlab
+tic
 filename = '/Users/Sir/Desktop/Data/EE104/Homework/pic/p1_2.png';
 % m is the same m asin the problem statement
 % f equally divides the probability 0.1-0.9 into f parts
@@ -100,7 +103,6 @@ function [C,cstd] = get_C(m,p,N,n)
     cstd = std(c);
 end
 ```
-
 ## Problem 2
 Test code:
 ```matlab
@@ -110,6 +112,7 @@ p2 = BerGenerator(N,0.4);
 p3 = BerGenerator(N,0.6);
 [p,W] = func(p1,p2,p3);
 ```
+Code of BerGenerator:
 ```matlab
 function [a,p] = BerGenerator(N,p0)
 % generate a column of N random 0 1 series with the probablity of P(x=1)=p0
@@ -133,7 +136,6 @@ function [a,p] = BerGenerator(N,p0)
     end
 end
 ```
-
 Calculating probability with W = 1:
 ```matlab
 function [p,W] = func(p1,p2,p3)
@@ -142,7 +144,7 @@ function [p,W] = func(p1,p2,p3)
 end
 ```
 ### Part 4
-Test code 
+Test code:
 ```matlab
 N = 100000;
 p1 = BerGenerator(N,0.3);
