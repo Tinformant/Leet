@@ -13,7 +13,7 @@ function [S,x] = generateSample(m,p,N,n)
     end
 end
 ```
-This one is the function of calculatingn the Hellinger Distance.
+For calculating the Hellinger Distance:
 ```matlab
 function [H,h,R,Theo] = get_H(m,p,N,n)
 % get the Hellinger distance 
