@@ -23,47 +23,37 @@ function [H,h,R,Theo] = get_H(m,p,N,n)
     H = mean(h);
 end
 ```
-Test code:
 ```matlab
-% problem_1_3
-clear;
-tic
-filename = '/Users/jarvis_Mac/Desktop/Data/EE104/Homework/cs02s218/pic/p1_1.png';
-% H is Hellinger Distance of the practical result and theoretical result; R
-% is the simulation of the binomial distribution
-
+filename = '/Users/Sir/Desktop/Data/EE104/Homework/pic/p1_1.png';
+% H is Hellinger Distance of the practical result and theoretical result
+% R is the simulation of the binomial distribution
 t = (0:1:10)';
 m = 10; p = 1/2; N = 100; n = 1;
 [H,h,R,Theo] = get_H(m,p,N,n);
-
 f = figure;
 plot(t,R,t,Theo)
 xlabel('m : Numbers of Xi has the value 1');
 ylabel('P: Probability');
 title('Practical and Theoretical  Binomial Distriubution');
 legend("Practical","Theoretical")
-
 saveas(f, filename);
 ```
 ### Part 2
 Test code:
 ```matlab
-clear;
-tic
-filename = '/Users/jarvis_Mac/Desktop/Data/EE104/Homework/cs02s218/pic/p1_2.png';
-% m is the same m in the problem statement, f means equally divide the probability
-% 0.1-0.9 into f parts, T denotes the threshold when H < 0.05, p is
-% different probability
-
-m = 50; n = 1; f = 5;
+filename = '/Users/Sir/Desktop/Data/EE104/Homework/pic/p1_2.png';
+% m is the same m asin the problem statement
+% f equally divides the probability 0.1-0.9 into f parts
+% T denotes the threshold when H < 0.05
+m = 50; 
+n = 1; 
+f = 5;
 [p, Tmean, Terr] = p1_2(m,f,n);
-
 f = figure;
 errorbar(p,Tmean,Terr)
 xlabel('Probability P');
 ylabel('N of Threshold');
 title('Threshold N vs Different probability');
-
 saveas(f,filename);
 ```
 For 20 Monte Carlo trials with p from 0.1 to 0.9:
