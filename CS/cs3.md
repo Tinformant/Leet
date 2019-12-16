@@ -1,8 +1,8 @@
 # Computer set 3 Code
 ## Problem 1
 ### Part 2
+For approximating PDF:
 ```matlab
-% approximate PDF
 function [Result_pdf,Result_cdf,X] = P1(Data, Num_Bins, X_Max, X_Min)
     Bin_Size = (X_Max - X_Min)/Num_Bins;
     Edge = zeros(1,Num_Bins+1);
@@ -18,47 +18,37 @@ end
 ```
 ### Part 3
 ```matlab
-clear;close all;
-file1 = '/Users/jarvis_Mac/Desktop/Data/EE104/Homework/cs03s218/pic/Guass.png';
-file2 = '/Users/jarvis_Mac/Desktop/Data/EE104/Homework/cs03s218/pic/Uni.png';
-
+file1 = '/Users/sir/Desktop/Data/EE104/Homework/Guass.png';
+file2 = '/Users/sir/Desktop/Data/EE104/Homework/Uni.png';
 Num_Data = 10000;
 Data_Norm = randn(Num_Data,1);
-
 Data_Uni = 6*rand(Num_Data,1) - 1; 
 X_Max = 7; X_Min = -7; Num_Bins = 100;
-
 [rpdf,rcdf,x] = P1(Data_Norm, Num_Bins, X_Max, X_Min);
 f1 = figure;
 yyaxis left
 ylabel('Probablity of PDF'); xlabel('Sample Value');
-
 yyaxis right
 ylabel('Probablity of CDF');
 hold on;
 yyaxis left
 plot(x,rpdf,'LineWidth',2);
 set(gca,'FontSize',12);
-
 yyaxis right
 plot(x,rcdf,'--o','LineWidth',1.5);
 title({'PDF and CDF of 10000 Gaussian samples';' '}); legend('pdf','cdf');
-
 [rpdf,rcdf,x] = P1(Data_Uni, Num_Bins, X_Max, X_Min);
 f2 =figure;
 yyaxis left
 ylabel('Probablity of PDF'); xlabel('Sample Value');
-
 yyaxis right
 ylabel('Probablity of CDF');
 hold on;
 yyaxis left
 plot(x,rpdf,'LineWidth',2); set(gca,'FontSize',12);
-
 yyaxis right
 plot(x,rcdf,'--o','LineWidth',1.5);
 title({'PDF and CDF of 10000 Uniform samples';' '}); legend('pdf','cdf');
-
 saveas(f1,file1); saveas(f2,file2);
 ```
 ## Problem 2
