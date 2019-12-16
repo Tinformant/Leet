@@ -65,7 +65,7 @@ function [D,S]= generateD(p,sigma2)
 end
 ```
 ### Part 2
-Here is another function for calculating the probablity of $P_{FA}$ and $P_D$: 
+Here is another function for calculating the probablity of PFA and PD: 
 ```matlab
 function [Pd,Pfa] = detect(p,sigma2,eta,Num_Sample)
     Pd = 0; Pfa = 0; count = 0;
