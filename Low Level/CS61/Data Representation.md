@@ -18,3 +18,5 @@ void f() {
 * Data. Modifiable; static lifetime.
 * Heap. Modifiable; dynamic lifetime.
 * Stack. Modifiable; automatic lifetime.
+
+
