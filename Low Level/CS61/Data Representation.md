@@ -24,4 +24,9 @@ void f() {
 * Addresses: hardware concepts.
 * Pointers: concepts in the C abstract machine; a pointer combines an address and a type.
 
-
+## Undefined behavior
+Given an array a[N] of N elements of type T:
+1. Forming a pointer &a[i] (or a + i) with 0 ≤ i ≤ N is safe.
+2. Forming a pointer &a[i] with i < 0 or i > N causes undefined behavior.
+3. Dereferencing a pointer &a[i] with 0 ≤ i < N is safe.
+4. Dereferencing a pointer &a[i] with i < 0 or i ≥ N causes undefined behavior.
