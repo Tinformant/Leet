@@ -30,3 +30,13 @@ Given an array a[N] of N elements of type T:
 2. Forming a pointer &a[i] with i < 0 or i > N causes undefined behavior.
 3. Dereferencing a pointer &a[i] with 0 ≤ i < N is safe.
 4. Dereferencing a pointer &a[i] with i < 0 or i ≥ N causes undefined behavior.
+
+## Signed Integer Representation
+### Two's complement
+Representation for signed integers (x86-64) is two’s complement; 
+
+principle: addition and subtraction of signed integers shall use the same instructions as addition and subtraction of unsigned integers.
+
+principle: adding x and -x result in 0.
+
+To see what this means, let’s think about what -x should mean when x is an unsigned integer. Wait, negative unsigned?! This isn’t an oxymoron because C++ uses modular arithmetic for unsigned integers: the result of an arithmetic operation on unsigned values is always taken modulo 2B, where B is the number of bits in the unsigned value type. Thus, on x86-64,
