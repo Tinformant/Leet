@@ -5,3 +5,9 @@ A process is a running version of a program and has an execution context, includ
 A process communicates with OS (and devices) via **system calls**.
 
 OS sends signals to process via **signals**.
+
+Time
+* Wallclock time: the usual notion of time, in elapsed seconds.
+* User time: the time spent in a process.
+* System time: the time spent in system calls, at the request of a process.
+* (OS time or "overhead": the time spent outside processes) 
