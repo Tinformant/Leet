@@ -1,4 +1,3 @@
-A process is a running version of a program,
-accomplishes latency hiding, where one process
+A process is a running version of a program and has an execution context, including register values and memory map.
 
-**Context switching** latency hiding, where one process accomplishes work while another one is waiting for something.
+**Context switching** accomplishes latency hiding, where one process accomplishes work while another one is waiting for something.
