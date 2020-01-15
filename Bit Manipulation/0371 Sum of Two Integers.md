@@ -1,3 +1,4 @@
+## 0371 Sum of Two Integers
 Idea: 
 1. Use a bit mask of 1 to gauge each bit. 
 2. The mask starts as 1.
@@ -14,5 +15,17 @@ public int hammingWeight(int n) {
     }
     
     return count;
+}
+```
+## 0268 Missing Number
+1. A number XOR with itself is 0.
+2. nums has length n, so xor every element with its index will result in n ^ missing;
+3. (n ^ missing) ^ n will result in missing.
+```java
+public int missingNumber(int[] nums) {
+    int missing = nums.length;
+    for (int i = 0; i < nums.length; ++i) 
+        missing ^= i ^ nums[i];
+    return missing;
 }
 ```
