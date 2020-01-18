@@ -1,4 +1,4 @@
-## 173 Binary Search Tree Iterator
+## 0173 Binary Search Tree Iterator
 
 * next() and hasNext() -> stack
 * In the stack, the largest nodes are in the bottom -> reverse inorder traversal
