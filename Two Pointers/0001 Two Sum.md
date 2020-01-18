@@ -10,3 +10,6 @@ public int[] twoSum(int[] nums, int target) {
     return null;
 }
 ```
+Two-Pass Hash Map
+
+One-Pass Hash Map
