@@ -1,3 +1,4 @@
+```java
 class Solution {
     List<Integer> out = new ArrayList<>();
     void inOrder (TreeNode node) {
@@ -12,3 +13,4 @@ class Solution {
         return out;
     }
 }
+```
