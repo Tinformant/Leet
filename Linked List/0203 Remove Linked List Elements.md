@@ -1,3 +1,6 @@
+## 0203 Remove Linked List Elements
+
+```java
 public ListNode removeElements(ListNode head, int val) {
     
     while (head != null && head.val == val)
@@ -15,3 +18,4 @@ public ListNode removeElements(ListNode head, int val) {
     }
     return head;
 }
+```
