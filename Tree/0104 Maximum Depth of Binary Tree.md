@@ -1,7 +1,8 @@
 ## 104 Maximum Depth of Binary Tree
 TODO: iterative solution
 
-Recursive Solution:
+### Recursive Solution:
+**java**
 ```java
     public int maxDepth(TreeNode root) {
         if (root == null)
@@ -9,3 +10,6 @@ Recursive Solution:
         return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
     }
 ```
+### Iterative Solution
+**java**
+
