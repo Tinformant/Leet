@@ -1,8 +1,11 @@
+## Binary Tree
+* A binary tree has at most two kids.
+
 ## Binary Search Tree
 * Left child less than parent
 * Right child greater than parent
 * The left and right subtree each must also be a BST.
-A binary tree has at most two kids.
+
 ```java
 class BinaryTree {
     Node root;
