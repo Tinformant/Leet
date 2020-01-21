@@ -1,4 +1,3 @@
-```java
 ## Recursive Solution
 **Java**
 My initial approach is:
