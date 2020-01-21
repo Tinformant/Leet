@@ -47,6 +47,7 @@ public int[] twoSum(int[] nums, int target) {
 * space Complexity: O(n)
 
 One-Pass Hash Map
+**Java**
 ```java
 public int[] twoSum(int[] nums, int target) {
     Map<Integer, Integer> map = new HashMap<>();
@@ -59,6 +60,25 @@ public int[] twoSum(int[] nums, int target) {
     }
     return null;
 }
+```
+**Python**
+```python
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        my_dict = {}
+        for i, num in enumerate(nums):
+            my_dict[num] = i;
+            
+        for i, num in enumerate(nums):            
+            complement = target - num
+            if complement in my_dict and my_dict.get(complement) != i:
+                return [i, my_dict.get(complement)]
+        return None
 ```
 * Time Complexity: O(n)
 * space Complexity: O(n)
