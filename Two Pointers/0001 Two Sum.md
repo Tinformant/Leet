@@ -30,7 +30,7 @@ public int[] twoSum(int[] nums, int target) {
 * space Complexity: O(1)
 
 ### Two-Pass Hash Map
-**java*
+**java**
 ```java
 public int[] twoSum(int[] nums, int target) {
     Map<Integer, Integer> map = new HashMap<>();
