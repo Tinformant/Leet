@@ -30,7 +30,8 @@ public int[] twoSum(int[] nums, int target) {
 * space Complexity: O(1)
 
 Two-Pass Hash Map
-```
+**java*
+```java
 public int[] twoSum(int[] nums, int target) {
     Map<Integer, Integer> map = new HashMap<>();
     for (int i = 0; i < nums.length; ++i) 
@@ -42,6 +43,24 @@ public int[] twoSum(int[] nums, int target) {
     }
     return null;
 }
+```
+**python
+```python
+def twoSum(self, nums, target):
+    """
+    :type nums: List[int]
+    :type target: int
+    :rtype: List[int]
+    """
+    my_dict = {}
+    for i, num in enumerate(nums):
+        my_dict[num] = i;
+
+    for i, num in enumerate(nums):            
+        complement = target - num
+        if complement in my_dict and my_dict.get(complement) != i:
+            return [i, my_dict.get(complement)]
+    return None
 ```
 * Time Complexity: O(n)
 * space Complexity: O(n)
@@ -63,22 +82,19 @@ public int[] twoSum(int[] nums, int target) {
 ```
 **Python**
 ```python
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        my_dict = {}
-        for i, num in enumerate(nums):
-            my_dict[num] = i;
-            
-        for i, num in enumerate(nums):            
-            complement = target - num
-            if complement in my_dict and my_dict.get(complement) != i:
-                return [i, my_dict.get(complement)]
-        return None
-```
+def twoSum(self, nums, target):
+    """
+    :type nums: List[int]
+    :type target: int
+    :rtype: List[int]
+    """
+    my_dict = {}
+    for i, num in enumerate(nums):
+        complement = target - num
+        if complement in my_dict and my_dict.get(complement) != i:
+            return [i, my_dict.get(complement)]
+        my_dict[num] = i;
+    return None
+ ```
 * Time Complexity: O(n)
 * space Complexity: O(n)
