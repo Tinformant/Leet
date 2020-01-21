@@ -1,5 +1,6 @@
 ## Recursive Solution
 **Java**
+
 My initial approach is:
 ```java
 public boolean isValidBST(TreeNode root) {
