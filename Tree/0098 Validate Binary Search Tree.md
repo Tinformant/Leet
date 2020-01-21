@@ -16,7 +16,7 @@ public boolean isValidBST(TreeNode root) {
 
 }
 ```
-The above cannot solve [10,5,15,null,null,6,20], because this approach only makes comparison within each branch. This approach can ensure that each (node, left child, right child) combo is legit but unable to ensure the correctness of entire tree.
+The above cannot solve [10, 5, 15, null, null, 6, 20], because this approach only makes comparison within each branch. This approach can ensure that each (node, left child, right child) combo is legit but unable to ensure the correctness of entire tree.
 
 The correct recursive solution is to use a helper function to keep track the allowed upper and lower limit for each (node, left child, right child) combo.
 ```java
