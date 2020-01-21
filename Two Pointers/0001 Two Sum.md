@@ -30,7 +30,7 @@ public int[] twoSum(int[] nums, int target) {
 * space Complexity: O(1)
 
 ### Two-Pass Hash Map
-**java**
+**Java**
 ```java
 public int[] twoSum(int[] nums, int target) {
     Map<Integer, Integer> map = new HashMap<>();
@@ -44,7 +44,7 @@ public int[] twoSum(int[] nums, int target) {
     return null;
 }
 ```
-**python**
+**Python**
 ```python
 def twoSum(self, nums, target):
     """
