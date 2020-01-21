@@ -1,4 +1,5 @@
-## Recursive Solution
+## 0098 Validate Binary Search Tree.md
+### Recursive Solution
 **Java**
 
 My initial approach is:
