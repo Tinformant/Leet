@@ -1,9 +1,12 @@
-#### 0101 Symmetric Tree
-Recursive Solution
+## 0101 Symmetric Tree
+### Recursive Solution
+**Java**
 ```java
 boolean isMirror (TreeNode left, TreeNode right) {
-        if (left == null && right == null)
+        // Both are null
+        if (left == right)
             return true;
+        // Only one is null
         if (left == null || right == null)
             return false;
         if (left.val != right.val)
@@ -17,4 +20,9 @@ public boolean isSymmetric(TreeNode root) {
     return isMirror(root.left, root.right);
 }
 ```
-TODO iterative solution
+**Python**
+
+## Iterative Solution
+**Java**
+
+**Python**
