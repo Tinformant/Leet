@@ -35,9 +35,6 @@ class BinaryTree {
 ## Tree Traversal
 ### Depth First Traversal
 1. Inorder: left -> root -> right
-2. Preorder: root -> left -> right
-3. Postorder: left -> right -> root
-
 ```java
 void printInOrder (Node node) {
     if (node == null) return;
@@ -46,6 +43,11 @@ void printInOrder (Node node) {
     System.out.println(node.value);
     printInOrder(node.right);
 }
+```
+Inorder traversal of BST is an array sorted in the ascending order.
+
+2. Preorder: root -> left -> right
+```java
 void printPreOrder (Node node) {
     if (node == null) return;
     
@@ -53,6 +55,10 @@ void printPreOrder (Node node) {
     printPreOrder(node.right);
     printPreOrder(node.left);
 }
+```
+
+3. Postorder: left -> right -> root
+```java
 void printPostOrder (Node node) {
     if (node == null) return;
 
