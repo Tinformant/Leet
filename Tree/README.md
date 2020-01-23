@@ -44,8 +44,8 @@ void printInOrder (Node node) {
     printInOrder(node.right);
 }
 ```
-Inorder traversal of BST is an array sorted in the ascending order.
-
+* Inorder traversal of BST is an array sorted in the ascending order.
+* Inorder traversal is not a unique identifier of BST.
 2. Preorder: root -> left -> right
 ```java
 void printPreOrder (Node node) {
@@ -56,6 +56,7 @@ void printPreOrder (Node node) {
     printPreOrder(node.left);
 }
 ```
+* Preorder traversal is a unique identifier of BST.
 
 3. Postorder: left -> right -> root
 ```java
@@ -67,6 +68,10 @@ void printPostOrder (Node node) {
     System.out.println(node.value);
 }
 ```
+* Postorder traversal is a unique identifier of BST.
+
+**inorder = sorted(postorder) = sorted(preorder)**
+**inorder + postorder** or **inorder + preorder** are both unique identifiers of whatever binary tree.
 
 TODO: iterative DFS
 
