@@ -38,7 +38,7 @@ def invertTree(self, root):
 ```
 ### Iteration
 **Java**
-```
+```java
 public TreeNode invertTree(TreeNode root) {
     if (root == null)
         return null;
