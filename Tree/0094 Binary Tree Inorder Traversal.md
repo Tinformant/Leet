@@ -19,6 +19,20 @@ class Solution {
 ```
 **Python** 
 ```python
+def inorderTraversal(self, root):
+    """
+    :type root: TreeNode
+    :rtype: List[int]
+    """
+    out = []
+    def helper(node):
+        if node is None:
+            return None
+        helper(node.left)
+        out.append(node.val)
+        helper(node.right)
+    helper(root)
+    return out
 
 ```
 ### Iteration
