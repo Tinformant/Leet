@@ -22,6 +22,7 @@ public TreeNode invertTree(TreeNode root) {
 
 
 
+
 ### Iteration
 **Java**
 ```
@@ -48,3 +49,25 @@ public TreeNode invertTree(TreeNode root) {
 }
 ```
 **Python**
+```Python
+def invertTree(self, root):
+    """
+    :type root: TreeNode
+    :rtype: TreeNode
+    """
+    if root is None:
+        return None
+
+    arr = [root]
+    while len(arr) != 0:
+        cur = arr.pop()
+        temp = cur.left
+        cur.left = cur.right
+        cur.right = temp
+
+        if cur.left != None:
+            arr.append(cur.left)
+        if cur.right != None:
+            arr.append(cur.right)
+    return root
+```
