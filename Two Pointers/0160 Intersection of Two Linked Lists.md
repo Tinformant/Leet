@@ -50,4 +50,13 @@ def getIntersectionNode(self, headA, headB):
 
     return None
 ```
-## Two Pointers
+### Two Pointers
+**Java**
+```java
+```
+
+**Python**
+```python
+```
+
+
