@@ -1,5 +1,6 @@
 ## 0160 Intersection of Two Linked Lists
 ## Hash Set
+**Java*8
 ```java
 public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
     Set<ListNode> set = new HashSet<>();
@@ -29,4 +30,23 @@ public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
     }
     return null;
 }
+```
+**Python**
+```python
+def getIntersectionNode(self, headA, headB):
+    """
+    :type head1, head1: ListNode
+    :rtype: ListNode
+    """
+    node_set = set()
+    while headA != None:
+        node_set.add(headA)
+        headA = headA.next
+    while headB != None:
+        if headB in node_set:
+            return headB
+        node_set.add(headB)
+        headB = headB.next
+
+    return None
 ```
