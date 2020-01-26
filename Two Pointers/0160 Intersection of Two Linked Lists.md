@@ -1,6 +1,6 @@
 ## 0160 Intersection of Two Linked Lists
 ## Hash Set
-**Java*8
+**Java**
 ```java
 public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
     Set<ListNode> set = new HashSet<>();
@@ -50,3 +50,4 @@ def getIntersectionNode(self, headA, headB):
 
     return None
 ```
+## Two Pointers
