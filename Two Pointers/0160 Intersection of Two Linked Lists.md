@@ -5,29 +5,17 @@
 public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
     Set<ListNode> set = new HashSet<>();
 
-    while (headA != null && headB != null) {
-        if (set.contains(headA))
-            return headA;
-        else
-            set.add(headA);
+    while (headA != null) {
+        set.add(headA);
+        headA = headA.next;
+    }
+
+    while (headB != null) {
         if (set.contains(headB))
             return headB;
-        else
-            set.add(headB);
-        headA = headA.next;
-        headB = headB.next;            
+        headB = headB.next; 
     }
 
-    ListNode cur = headA == null ? headB : headA;
-
-    while (cur != null) {
-        if (set.contains(cur))
-            return cur;
-        else {
-            set.add(cur);
-            cur = cur.next; 
-        }
-    }
     return null;
 }
 ```
@@ -45,7 +33,6 @@ def getIntersectionNode(self, headA, headB):
     while headB != None:
         if headB in node_set:
             return headB
-        node_set.add(headB)
         headB = headB.next
 
     return None
