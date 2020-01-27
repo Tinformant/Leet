@@ -71,6 +71,7 @@ void printPostOrder (Node node) {
 * Postorder traversal is a unique identifier of BST.
 
 **inorder = sorted(postorder) = sorted(preorder)**
+
 **inorder + postorder** or **inorder + preorder** are both unique identifiers of whatever binary tree.
 
 TODO: iterative DFS
