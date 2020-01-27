@@ -16,6 +16,6 @@ public int firstBadVersion(int n) {
 }
 ```
 **Python**
-``python
+```python
 ```
-### Hare and Tortoise
+
