@@ -2,10 +2,10 @@
 ```java
 public int search(int[] nums, int target) {
 	int l = 0;
-	int h = nums.length - 1;
+	int r = nums.length - 1;
 
-	while (l <= h) {
-		int m = l + (h - l) / 2;
+	while (l <= r) {
+		int m = l + (r - l) / 2;
 		int cur = nums[m];
 		
 		if ((cur < nums[0]) != (target < nums[0])) 
@@ -17,9 +17,10 @@ public int search(int[] nums, int target) {
 
 		if (cur < target) 
 			// Can we have l = mid?
+			// Can we have r = mid?
 			l = m + 1;
 		else if (cur > target)
-			h = m - 1;
+			r = m - 1;
 		else 
 			return m;
 	}
