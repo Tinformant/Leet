@@ -7,12 +7,11 @@ public int search(int[] nums, int target) {
 	while (l <= h) {
 		int m = l + (h - l) / 2;
 		int cur = nums[m];
-
-		// if ((cur < nums[nums.length - 1]) != (target < nums[nums.length - 1])) 
-
+		
 		if ((cur < nums[0]) != (target < nums[0])) 
 			cur = target < nums[0] ? Integer.MIN_VALUE : Integer.MAX_VALUE;
 
+		// Can we compare with nums.length - 1?
 		// if ((cur < nums[nums.length - 1]) != (target < nums[nums.length - 1]))  
 		//     cur = target < nums[0] ? Integer.MAX_VALUE : Integer.MIN_VALUE;
 
