@@ -18,10 +18,18 @@ while (l <= r) {
         return m;
 ```
 
-## Find the middle index
+## Find the Middle Index
 ```java
 // This may overflow
 int mid = (left + right) / 2;
 // Use this instead
 int mid = left + (right - left) / 2;
 ```
+
+## Recommended Order for Review
+1. 0035 Search Insert Position
+2. 0278 First Bad Version
+3. 0074	Search a 2D Matrix
+4. 0033	Search in Rotated Sorted Array
+5. 0081	Search in Rotated Sorted Array II
+6. 0034 Find First and Last Position of Element in Sorted Array
