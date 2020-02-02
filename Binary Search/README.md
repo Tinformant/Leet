@@ -1,7 +1,7 @@
 # Binary Search
 Binary search **only works in a sorted array**. If the input array is not sorted, make it sorted.
 
-Time Complexity: O(log(n))
+**Time Complexity: O(log(n))**
 
 ## Binary Search Algorithm
 ```java
