@@ -1,4 +1,5 @@
 # Binary Search
+Binary search **only works in a sorted array**. If the input array is not sorted, make it sorted.
 
 ## Find the middle index
 ```java
