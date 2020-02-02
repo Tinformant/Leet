@@ -1,4 +1,4 @@
-
+## 0081 Search in Rotated Sorted Array II
 ```java
 public boolean search(int[] nums, int target) {
 
@@ -18,12 +18,10 @@ public boolean search(int[] nums, int target) {
         int m = l + (r - l) / 2;
         int cur = nums[m];
 
-
         if ((cur < nums[0]) != (target < nums[0])) 
             cur = target < nums[0] ? Integer.MIN_VALUE : Integer.MAX_VALUE;
 
         if (cur < target) 
-            // Can we have l = mid?
             l = m + 1;
         else if (cur > target)
             r = m - 1;
