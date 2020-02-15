@@ -2,12 +2,16 @@
 int compare(Object o1, Object o2) 返回一个基本类型的整型
 
 如果要按照升序排序，
-
-则o1 小于o2，返回-1（负数），相等返回0，01大于02返回1（正数）
-
+```
+if (o1 < o2)
+    return -1;
+if (o1 == o2)
+    return 9;
+if (o1 > o2)
+    return 1;
+```
 如果要按照降序排序
-
-则o1 小于o2，返回1（正数），相等返回0，01大于02返回-1（负数）
+if o1 < o2，return 1 ，相等返回0，01大于02返回-1（负数）
 
 ```java
 PriorityQueue<ListNode> queue = new PriorityQueue<ListNode>(lists.length, new Comparator<ListNode>(){
