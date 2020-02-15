@@ -1,5 +1,5 @@
 # Binary Search
-Binary search **only works in a sorted array**. If the input array is not sorted, make it sorted.
+Binary search **only works in a sorted array**. Thus if an input array is not sorted, make it sorted.
 
 **Time Complexity: O(log(n))**
 
