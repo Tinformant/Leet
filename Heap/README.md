@@ -1,5 +1,9 @@
 # HEAP
-The default Java heap is a min heap.
+## Java.util.PriorityQueue Class
+The default Java PriorityQueue is a min heap (head is min).
+```java
+PriorityQueue<Integer> q = new PriorityQueue<Integer>(); 
+```
 
 Min heap: head is min
 ```java
