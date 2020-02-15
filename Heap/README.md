@@ -1,4 +1,6 @@
 # HEAP
+The default Java heap is a min heap.
+
 Min heap: head is min
 ```java
 PriorityQueue<ListNode> queue = new PriorityQueue<ListNode>(lists.length, new Comparator<ListNode>(){
