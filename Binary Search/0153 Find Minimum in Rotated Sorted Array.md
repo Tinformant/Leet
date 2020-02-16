@@ -1,4 +1,6 @@
 ## 0153 Find Minimum in Rotated Sorted Array
+### Binary Search
+**Java**
 ```java
 public int findMin(int[] num) {
     if (num == null || num.length == 0)
