@@ -38,6 +38,7 @@ def inorderTraversal(self, root):
 ### Iteration
 1. Exhaust left subtree.
 2. Use stack to maintain order of the subtree and retrieve right children.
+
 **Java**
 ```java
 public List<Integer> inorderTraversal(TreeNode root) {
