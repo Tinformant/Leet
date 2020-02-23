@@ -1,5 +1,6 @@
 ## 0103 Binary Tree Zigzag Level Order Traversal
-The default ordering of BFS within a single level is from left to right. To generate the desired zigzag ordering, key here is to store the values that are of the same level with the deque (double-ended queue) data structure, where new values can be added on either end of a queue.
+BFS's default order of traversing a tree is from left to right. To generate the desired zigzag order, key here is to store the values in a deque, where new values can be added on either end of the queue.
+
 **Java**
 ```java
 public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
