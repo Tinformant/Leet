@@ -22,9 +22,6 @@ void f() {
 * Heap. Modifiable; dynamic lifetime.
 * Stack. Modifiable; automatic lifetime.
 
-## Pointer Representation
-* Addresses: hardware concepts.
-* Pointers: concepts in the C abstract machine; a pointer combines an address and a type.
 
 ## Data Layout
 Each object uses a contiguous range of addresses (and thus bytes).
@@ -71,3 +68,17 @@ C compiler and library restrict the addresses at which some kinds of data appear
 * float: 4, multiple of 4
 * double: 8, multiple of 8
 * T*: 8, multiple of 8
+
+## Alignment Rules
+5. Malloc rule. Any non-null pointer returned by malloc has alignment appropriate for any type. In other words, assuming the allocated size is adequate, the pointer returned from malloc can safely be cast to T* for any T.
+
+Oddly, this holds even for small allocations. The C++ standard (the abstract machine) requires that malloc(1) return a pointer whose alignment is appropriate for any type, including types that don’t fit.
+
+The last rule is not required by the abstract machine, but it’s how sizes and alignments on our machines work:
+
+6. Minimum rule. The sizes and alignments of user-defined types, and the offsets of struct members, are minimized within the constraints of the other rules.
+
+
+## Pointer Representation
+* Addresses: hardware concepts.
+* Pointers: concepts in the C abstract machine; a pointer combines an address and a type.
