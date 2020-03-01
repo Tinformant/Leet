@@ -33,3 +33,11 @@ Flow groups: applications grouped together. High-priority applications grouped t
 
 ## Bandwidth fns
 How much bandwidth to allocate for each app or flow group (FG) based on priority.
+
+## Encapsulation
+Family of technologies to isolate tenants processes running on the same machine
+* To ensure privacy/security of data
+* To avoid performance & correctness interference
+* To allow flexibility in choice of OS / libs / software
+
+Encapsulation tech presents tenants w/ abstraction of access to an entire machine. In actuality, machine is shared among tenants
