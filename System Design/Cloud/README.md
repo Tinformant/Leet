@@ -24,6 +24,10 @@ A: Only one
 # of CPUs a single process can concurrently run on?
 A: Also one
 
+Why distributed?
+* scalability: can run processcess on different machines
+* separation of concern
+
 ## Traffic Engineering
 Flow groups: applications grouped together. High-priority applications grouped together. Low-priority applications grouped together.
 
