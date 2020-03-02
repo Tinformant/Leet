@@ -18,10 +18,10 @@ A process's registers:
   
   State that is maintained:
  
-# of processes that can concurrently execute on 1 CPU?
+Num of processes that can concurrently execute on 1 CPU?
 A: Only one
 
-# of CPUs a single process can concurrently run on?
+Num of CPUs a single process can concurrently run on?
 A: Also one
 
 # Distributed Systems
@@ -30,6 +30,15 @@ Distributed service: =set of processes that coordinate to accomplish a common go
 Why distributed?
 * scalability: can run processcess on different machines
 * separation of concern
+
+Dealing w/i failures:
+1. detection
+2. mitigation: replication
+3. diagnosis
+
+How to keep replications consistent?
+1. Master-slave architecture
+2. Consensus algorithm
 
 ## Traffic Engineering
 Flow groups: applications grouped together. High-priority applications grouped together. Low-priority applications grouped together.
