@@ -24,6 +24,9 @@ A: Only one
 # of CPUs a single process can concurrently run on?
 A: Also one
 
+# Distributed Systems
+Distributed service: =set of processes that coordinate to accomplish a common goal
+
 Why distributed?
 * scalability: can run processcess on different machines
 * separation of concern
