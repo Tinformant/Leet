@@ -40,6 +40,10 @@ How to keep replications consistent?
 1. Master-slave architecture
 2. Consensus algorithm
 
+Performance Metrics
+* throughput
+* latency
+
 ## Traffic Engineering
 Flow groups: applications grouped together. High-priority applications grouped together. Low-priority applications grouped together.
 
