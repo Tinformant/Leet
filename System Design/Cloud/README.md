@@ -75,3 +75,9 @@ Encapsulation tech presents tenants w/ abstraction of access to an entire machin
 GFS limitation
 * Single metadata master is a bottleneck
 * Many small files are a problem since each one requires accesses to the master
+
+## ACID:
+* Atomicity: Everything happens or nothing
+* Consistency: If the database has rules they are obeyed at transaction end (e.g. balance must be < $1,000,000)
+* Isolation: Any two parallel transactions act as if serial
+* Durability: Once committed, never lost
