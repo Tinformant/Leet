@@ -24,6 +24,13 @@ A: Only one
 Num of CPUs a single process can concurrently run on?
 A: Also one
 
+## Context Swithcing
+### Threads within the same process
+* context swithcing: yes
+* States saved to thread control blocks
+* context to switch: registers, PC (each thread has a PC)
+* Address space doesn't change (same pagetable)
+
 # Distributed Systems
 Distributed service: =set of processes that coordinate to accomplish a common goal
 
@@ -57,3 +64,9 @@ Family of technologies to isolate tenants processes running on the same machine
 * To allow flexibility in choice of OS / libs / software
 
 Encapsulation tech presents tenants w/ abstraction of access to an entire machine. In actuality, machine is shared among tenants
+
+## GFS
+
+GFS limitation
+* Single metadata master is a bottleneck
+* Many small files are a problem since each one requires accesses to the master
