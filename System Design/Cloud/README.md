@@ -141,3 +141,7 @@ and returns that offset to the client.
 * GFS only has CD.
 
 All systems must choose between consistency and availability at scale.
+
+
+## BigTable
+CP
