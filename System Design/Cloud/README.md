@@ -81,3 +81,8 @@ GFS limitation
 * Consistency: If the database has rules they are obeyed at transaction end (e.g. balance must be < $1,000,000)
 * Isolation: Any two parallel transactions act as if serial
 * Durability: Once committed, never lost
+
+## CAP
+* Consistency: everyone agrees on the data 
+* Availability: nobody ever has to stop processing 
+* Partition tolerance: keep going even when the network partitions
