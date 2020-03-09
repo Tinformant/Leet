@@ -120,7 +120,6 @@ Encapsulation tech presents tenants w/ abstraction of access to an entire machin
 * Single metadata master is a bottleneck
 * Many small files are a problem since each one requires accesses to the master
 
-
 ### GFS’s Master server (Directory structure location of file data on chunk) fault tolerance approach
 * Replicate master on several machines
 * Checkpoint master state periodically
@@ -129,5 +128,11 @@ Encapsulation tech presents tenants w/ abstraction of access to an entire machin
 ## Concurrency
 * GFS only guareentes order for concurrent updates for individual chunks
 
+## Record Append
+* Traditional write: the client specifies the offset at which data is to be written. Concurrent writes to the same region are not serializable: the region may end up containing data fragments from multiple clients.
+* Record append: the client specifies only the data. GFS
+appends it to the file at least once atomically (i.e., as one
+continuous sequence of bytes) at an offset of GFS’s choosing
+and returns that offset to the client.
 ## ACID
 * GFS only has CD.
