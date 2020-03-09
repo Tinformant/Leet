@@ -25,6 +25,10 @@ Num of CPUs a single process can concurrently run on?
 A: Also one
 
 ## Context Swithcing
+### Different Processes
+* context switching: yes
+* switch registers and page tables and pc
+* states saved to process control blocks
 ### Threads within the same process
 * context swithcing: yes
 * States saved to thread control blocks
