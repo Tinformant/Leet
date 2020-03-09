@@ -115,6 +115,7 @@ Geared for big data and high throughput.
 • GFS operates on data at this granularity
 • Clients can still read/write smaller amounts
 * Chunk servers store individual chuncks
+* con: small files (few chunks) may result in hot spots (many requests)
 
 ## Chunk Fault Tolerance
 
