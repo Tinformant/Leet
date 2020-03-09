@@ -16,7 +16,7 @@ Memory virtualization (a process's memory is virtual)
 * Isolates processes memory from one another, Gives processes illusion of having all of a machine's memory
 
 ## Virtual Mem Abstraction
-### Transparent Vir
+### Transparent Virtualization
 * No modification to guest OS
 * High performance overhead
 * Hypervisor emulates hardware for every VM
@@ -29,12 +29,13 @@ Memory virtualization (a process's memory is virtual)
 * Less performance overhead
 * fewer of OS modification
 * Find guest OS code that accesses shared resources and modify it in guest OS to call hypervisor
-### HW-Assisted Vir
+### HW-Assisted Virtualization
 * Modify CPU: privileged instructions trap into hypervisor.
 * Add more hardware structures for virtualization.
 * + lowest performance overhead
 * - no guest kernel modification
-  State that is maintained:
+
+State that is maintained:
  
 Num of processes that can concurrently execute on 1 CPU?
 A: Only one
