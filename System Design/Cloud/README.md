@@ -123,8 +123,8 @@ Geared for big data and high throughput.
 * Many small files are a problem since each one requires accesses to the master
 
 ### GFS’s Master server (Directory structure location of file data on chunk) fault tolerance approach
-* Replicate master on several machines
-* Checkpoint master state periodically
+* Replicate master on several machines; any replica can take over if primary Master fails
+* How to keep mappings on replica consistent: primary master periodically checkpoints mappings with replicas
 * Use journaling to preserve operations committed before checkpoints
 
 ## Concurrency
