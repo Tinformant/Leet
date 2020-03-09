@@ -34,7 +34,8 @@ A: Also one
 * States saved to thread control blocks
 * context to switch: registers, PC (each thread has a PC)
 * Address space doesn't change (same pagetable)
-
+### System Call
+* If a system call is blocking, it can cause context switching.
 # Distributed Systems
 Distributed service: =set of processes that coordinate to accomplish a common goal
 
