@@ -87,3 +87,9 @@ GFS limitation
 * Consistency: everyone agrees on the data 
 * Availability: nobody ever has to stop processing 
 * Partition tolerance: keep going even when the network partitions
+
+## B4
+* Centralized system for prioritizing high-priority traffic and increasing efficiency
+* Necessary at large scale to avoid cost overruns
+* Takes advantage of fact that a single entity (Google) controls everything: apps, switches, network.
+* Allows for more optimization than possible when multiple parties are involved.
