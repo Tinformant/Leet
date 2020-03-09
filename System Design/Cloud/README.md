@@ -109,6 +109,8 @@ Encapsulation tech presents tenants w/ abstraction of access to an entire machin
 * Allows for more optimization than possible when multiple parties are involved.
 
 # GFS
+Geared for big data and high throughput.
+
 ## Chunks: Unit of data, typically 64MB
 • GFS operates on data at this granularity
 • Clients can still read/write smaller amounts
