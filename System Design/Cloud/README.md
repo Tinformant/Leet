@@ -122,5 +122,8 @@ Encapsulation tech presents tenants w/ abstraction of access to an entire machin
 * Checkpoint master state periodically
 * Use journaling to preserve operations committed before checkpoints
 
-### Concurrency
-* Provide guarantees only for certain common cases
+## Concurrency
+* GFS only guareentes order for concurrent updates for individual chunks
+
+## ACID
+* GFS only has CD.
