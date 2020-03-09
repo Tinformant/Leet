@@ -15,8 +15,25 @@ Memory virtualization (a process's memory is virtual)
 * Memory mapping: process vritual memory to physical memory (also belongs to a process)
 * Isolates processes memory from one another, Gives processes illusion of having all of a machine's memory
 
-
-  
+## Virtual Mem Abstraction
+### Transparent Vir
+* No modification to guest OS
+* High performance overhead
+* Hypervisor emulates hardware for every VM
+* Binary translation of OS request to HW
+### Full Virtualization (modify guest OS so it knows it's virtualized)
+* Minimal performance overhead
+* Lots of OS modification
+* Change virtual memory manager, context switching code, etc. in kernel to be aware of other virtual machines
+### Para Virtualization
+* Less performance overhead
+* fewer of OS modification
+* Find guest OS code that accesses shared resources and modify it in guest OS to call hypervisor
+### HW-Assisted Vir
+* Modify CPU: privileged instructions trap into hypervisor.
+* Add more hardware structures for virtualization.
+* + lowest performance overhead
+* - no guest kernel modification
   State that is maintained:
  
 Num of processes that can concurrently execute on 1 CPU?
