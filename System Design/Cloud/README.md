@@ -72,10 +72,18 @@ Family of technologies to isolate tenants processes running on the same machine
 Encapsulation tech presents tenants w/ abstraction of access to an entire machine. In actuality, machine is shared among tenants
 
 ## GFS
-
-GFS limitation
+### GFS limitation
 * Single metadata master is a bottleneck
 * Many small files are a problem since each one requires accesses to the master
+### Chunk Fault Tolerance
+
+### GFS’s Master fault tolerance approach
+* Replicate master on several machines
+* Checkpoint master state periodically
+* Use journaling to preserve operations committed before checkpoints
+
+### Concurrency
+* Provide guarantees only for certain common cases
 
 ## ACID:
 * Atomicity: Everything happens or nothing
