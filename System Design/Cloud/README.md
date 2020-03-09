@@ -32,8 +32,8 @@ Memory virtualization (a process's memory is virtual)
 ### HW-Assisted Virtualization
 * Modify CPU: privileged instructions trap into hypervisor.
 * Add more hardware structures for virtualization.
-* + lowest performance overhead
-* - no guest kernel modification
+* pro: lowest performance overhead
+* pro: no guest kernel modification
 
 State that is maintained:
  
