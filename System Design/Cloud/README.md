@@ -112,11 +112,14 @@ Encapsulation tech presents tenants w/ abstraction of access to an entire machin
 ## Chunks: Unit of data, typically 64MB
 • GFS operates on data at this granularity
 • Clients can still read/write smaller amounts
+* Chunk servers store individual chuncks
+
+## Chunk Fault Tolerance
 
 ## GFS limitation
 * Single metadata master is a bottleneck
 * Many small files are a problem since each one requires accesses to the master
-### Chunk Fault Tolerance
+
 
 ### GFS’s Master server (Directory structure location of file data on chunk) fault tolerance approach
 * Replicate master on several machines
