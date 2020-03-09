@@ -139,3 +139,5 @@ continuous sequence of bytes) at an offset of GFS’s choosing
 and returns that offset to the client.
 ## ACID
 * GFS only has CD.
+
+All systems must choose between consistency and availability at scale.
