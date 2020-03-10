@@ -1,3 +1,10 @@
+# Design Pattern
+## Coupling
+__Coupling__ is the amount of interdependence among modules.
+
+* Design patterns often reduce coupling
+ * Low coupling helps make software easier to understand and change
+* ADTs also reduce coupling!
 # Testing
 ## Regression Testing
 Key idea: When you find a bug
@@ -17,3 +24,4 @@ Key idea: When you find a bug
 * Common metric for test suite quality: coverage
 * Goal: test suite covers all possible program behaviors
 * Assumption: high coverage ⇒ few mistakes remain in program
+
