@@ -13,6 +13,17 @@ __Coupling__ is the amount of interdependence among modules.
  * Code that may need to be modified together is grouped together
  * Code that has dependencies on each other is grouped inside a module
  * Design patterns say little to nothing about cohesion!
+ 
+Decorator Pattern
+* Problem:
+ * Want to add several different pieces of functionality to object
+ * Want to combine these pieces without making classes for all
+* possible combinations
+* Want to decide at run time what the combinations are
+• Solution: The decorator pattern
+■ Act like a proxy/adapter, but also implement the same
+interface as the original component
+■ That way, multiple decorators can be combined 
 # Testing
 ## Regression Testing
 Key idea: When you find a bug
