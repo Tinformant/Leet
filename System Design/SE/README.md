@@ -1,10 +1,18 @@
 # Design Pattern
 ## Coupling
 __Coupling__ is the amount of interdependence among modules.
-
 * Design patterns often reduce coupling
  * Low coupling helps make software easier to understand and change
 * ADTs also reduce coupling!
+
+## Cohesion
+* Cohesion is the degree to which a module’s internal elements are related
+ * LinkedList, ArrayList have high cohesion because all the methods are concerned with the data structures
+ * But, java.lang.Math has only moderate cohesion, because the methods are not that related
+• High cohesion is good because
+ * Code that may need to be modified together is grouped together
+ * Code that has dependencies on each other is grouped inside a module
+ * Design patterns say little to nothing about cohesion!
 # Testing
 ## Regression Testing
 Key idea: When you find a bug
