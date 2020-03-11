@@ -9,7 +9,7 @@ __Coupling__ is the amount of interdependence among modules.
 * Cohesion is the degree to which a module’s internal elements are related
  * LinkedList, ArrayList have high cohesion because all the methods are concerned with the data structures
  * But, java.lang.Math has only moderate cohesion, because the methods are not that related
-• High cohesion is good because
+* High cohesion is good because
  * Code that may need to be modified together is grouped together
  * Code that has dependencies on each other is grouped inside a module
  * Design patterns say little to nothing about cohesion!
@@ -45,7 +45,7 @@ Key idea: When you find a bug
 * Look only at specification, not at code
 
 ## Coverage Criteria
-* Common metric for test suite quality: coverage
+* Common metric for test suite quality: coverage (critiera for clear box testing)
 * Goal: test suite covers all possible program behaviors
 * Assumption: high coverage ⇒ few mistakes remain in program
 
