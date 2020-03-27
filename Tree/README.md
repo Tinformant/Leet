@@ -73,9 +73,7 @@ void printPostOrder (Node node) {
 
 **inorder + postorder** or **inorder + preorder** are both unique identifiers of whatever binary tree.
 
-TODO: iterative DFS
-
-Good source: https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/
+## Search
 ### DFS
 ```java
 void DFS (Node root) {
@@ -110,3 +108,6 @@ void BFS (Node root) {
   }
 }
 ```
+TODO: iterative DFS
+
+Good source: https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/
