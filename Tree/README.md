@@ -1,5 +1,5 @@
 ## Binary Tree
-* Only constraint is that a binary tree has at most two kids.
+* Only constraint is that a binary tree has at most two children.
 
 ## Binary Search Tree
 * Left child less than parent
