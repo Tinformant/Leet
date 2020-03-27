@@ -108,6 +108,5 @@ void BFS (Node root) {
   }
 }
 ```
-TODO: iterative DFS
-
-Good source: https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/
+Sources
+1. https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/
