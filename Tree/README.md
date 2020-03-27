@@ -1,9 +1,10 @@
 ## Binary Tree
-* A binary tree has at most two kids.
+* Only constraint is that a binary tree has at most two kids.
 
 ## Binary Search Tree
 * Left child less than parent
 * Right child greater than parent
+* No duplicate node
 * The left and right subtree each must also be a BST.
 
 ```java
