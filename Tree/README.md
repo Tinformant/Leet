@@ -32,9 +32,7 @@ class BinaryTree {
 * Insert, remove and search: average case O(logn), worst case O(n)
 
 
-
 ## Tree Traversal
-### Depth First Traversal
 1. Inorder: left -> root -> right
 ```java
 void printInOrder (Node node) {
