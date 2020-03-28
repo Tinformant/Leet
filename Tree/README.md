@@ -110,3 +110,25 @@ void BFS (Node root) {
 ```
 Sources
 1. https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/
+
+## Simple Recursion
+* 98 Validate Binary Search Tree
+* 100 Same Tree
+* 101 Symmetric Tree
+* 111 Minimum Depth of Binary Tree
+
+## Iteration instead of Recursion
+* 94 Binary Tree Inorder Traversal
+* 144 Binary Tree Preorder Traversal
+* 145 Binary Tree Postorder Traversal
+
+## Construct Tree
+* 105 Construct Binary Tree from Preorder and Inorder Traversal
+* 106 Construct Binary Tree from Inorder and Postorder Traversal
+* 108 Convert Sorted Array to Binary Search Tree
+
+## BFS
+* 102 Binary Tree Level Order Traversal
+* 107 Binary Tree Level Order Traversal II
+
+
