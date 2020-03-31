@@ -117,6 +117,8 @@ Sources
 * 101 Symmetric Tree
 * 110 Balanced Binary Tree
 * 111 Minimum Depth of Binary Tree
+* 112 Path Sum
+* 113 Path Sum II
 * 114 Flatten Binary Tree to Linked List
 
 ## Iteration instead of Recursion
@@ -134,9 +136,7 @@ Sources
 * 102 Binary Tree Level Order Traversal
 * 107 Binary Tree Level Order Traversal II
 
-## DFS
-* 112 Path Sum
-* 113 Path Sum II
+
 
 ## TODO
 * 116 Populating Next Right Pointers in Each Node
