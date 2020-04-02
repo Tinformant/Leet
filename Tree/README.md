@@ -132,15 +132,13 @@ Sources
 * 106 Construct Binary Tree from Inorder and Postorder Traversal
 * 108 Convert Sorted Array to Binary Search Tree
 
-## BFS
+## Search
 * 102 Binary Tree Level Order Traversal
 * 107 Binary Tree Level Order Traversal II
-
-
-
-## TODO
 * 116 Populating Next Right Pointers in Each Node
 * 117 Populating Next Right Pointers in Each Node II
+
+## TODO
 * 129 Sum Root to Leaf Numbers
 
 
