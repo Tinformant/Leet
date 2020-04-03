@@ -1,3 +1,7 @@
+# Bit Manipulation
+* 136. Single Number
+* 137. Single Number II
+
 * Set union A | B
 * Set intersection A & B
 * Set subtraction A & ~B
