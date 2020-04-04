@@ -1,6 +1,14 @@
 # Bit Manipulation
-* 136. Single Number
-* 137. Single Number II
+* 136 Single Number
+* 137 Single Number II
+* 461 Hamming Distance
+* 371 Sum of Two Integers
+* 169 Majority Element
+* 191 Number of 1 Bits
+* 338 Counting Bits
+* 268 Missing Number
+* 190 Reverse Bits
+* 476 Number Complement
 
 * Set union A | B
 * Set intersection A & B
