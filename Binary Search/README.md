@@ -1,3 +1,11 @@
+# Two Pointers
+* 1 Two Sum
+* 88 Merge Sorted Array
+* 160 Intersection of Two Linked List
+* 167 Two Sum II
+* 209 Minimum Size Subarray Sum
+
+
 # Binary Search
 Binary search **only works in a sorted array**. Thus if an input array is not sorted, make it sorted.
 
