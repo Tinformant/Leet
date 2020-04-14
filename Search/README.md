@@ -13,8 +13,10 @@ _____
 * 994 Rotten Orange
 * 394 Decode String
 * 695 Max Area of Island
+* 529 Mine Sweeper
 
 ### DFS
 * 547 Friends Circle
+* 695 Max Area of Island
 
 
