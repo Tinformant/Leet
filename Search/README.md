@@ -2,6 +2,10 @@
 ## Recommended Order for Review:
 * 690 Employee Importance
 * 200 Number of Islands
+
+## First Week
+* 690 Employee Importance
+* 200 Number of Islands
 * 133 Clone Graph
 ____
 * 542 01 Matrix
