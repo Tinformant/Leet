@@ -1,5 +1,5 @@
 # Search
-
+## Recommended Order for Review:
 * 690 Employee Importance
 * 200 Number of Islands
 * 133 Clone Graph
@@ -7,23 +7,27 @@ ____
 * 542 01 Matrix
 * 130 Surronded Regions
 * 695 Max Area of Island
-_____
-* 529 Mine Sweeper
 ____
-
 * 207 Course Schedule
 * 210 Course Schedule II
 * 127 Word Ladder 
+____
 * 286 Walls and Gates
 * 994 Rotten Orange
 * 394 Decode String
-
-
-
-
-
-### DFS
+_____
+* 529 Mine Sweeper
 * 547 Friends Circle
-* 695 Max Area of Island
+* 430 Flatten a Multilevel Doubly Linked List
+____
+* 733 Flood Fill
+* 743 Network Delay Time
+* 785 Is Graph Bipartite?
+
+
+
+## Union Find
+* 947 Most Stones Removed with Same Row or Column
+* 959 Regions Cut by Slashes
 
 
