@@ -23,6 +23,13 @@ ____
 * 733 Flood Fill
 * 743 Network Delay Time
 * 785 Is Graph Bipartite?
+____
+* 787 Cheapest Flights Within K Stops
+* 752 Open the Lock
+* 934 Shortest Bridge
+
+
+
 
 
 
