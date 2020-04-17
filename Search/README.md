@@ -3,8 +3,10 @@
 * 690 Employee Importance
 * 200 Number of Islands
 
+Start from 0 and backtrack to non-zero cells:
 * 286 Walls and Gates
 * 542 01 Matrix 
+
 ## First Week
 * 690 Employee Importance
 * 200 Number of Islands
