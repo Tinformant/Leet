@@ -2,6 +2,7 @@
 ## Recommended Order for Review:
 * 690 Employee Importance
 * 200 Number of Islands
+* 547 Friend Circle
 
 Start from 0 and backtrack to non-zero cells:
 * 286 Walls and Gates
