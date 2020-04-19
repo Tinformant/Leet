@@ -11,6 +11,13 @@ Start from 0 and backtrack to non-zero cells:
 No need to keep a visited list:
 * 529 Minesweeper
 
+Djikstra
+* 743 Network Delay Time
+
+Other
+* 733 Flood Fill
+* 785 Is Graph Bipartite?
+
 ## First Week
 * 690 Employee Importance
 * 200 Number of Islands
