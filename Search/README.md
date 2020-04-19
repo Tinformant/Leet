@@ -5,6 +5,7 @@
 Both DFS and BFS
 * 733 Flood Fill
 * 200 Number of Islands
+* 785 Is Graph Bipartite?
 
 Start from 0 and backtrack to non-zero cells:
 * 286 Walls and Gates
