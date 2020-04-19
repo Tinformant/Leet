@@ -1,8 +1,10 @@
 # Search
 ## Recommended Order for Review:
 * 690 Employee Importance
+
+Both DFS and BFS
+* 733 Flood Fill
 * 200 Number of Islands
-* 547 Friend Circle
 
 Start from 0 and backtrack to non-zero cells:
 * 286 Walls and Gates
@@ -15,8 +17,9 @@ Djikstra
 * 743 Network Delay Time
 
 Other
-* 733 Flood Fill
+
 * 785 Is Graph Bipartite?
+* 547 Friend Circle
 
 ## First Week
 * 690 Employee Importance
