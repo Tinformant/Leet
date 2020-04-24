@@ -12,23 +12,25 @@ Great source: https://leetcode.com/explore/learn/card/binary-search/
 * 122 Best Time to Buy and Sell Stock II
 * 16 3Sum Closest
 * 48 Rotate Image
-* 56 Merge Intervals
-* 31 Next Permutation
+______
 * 289 Game of Life
 * 73 Set Matrix Zeroes
-
-
-# TODO
-
-
+______
+* 56 Merge Intervals
+* 31 Next Permutation
 
 # Two Pointers
 * 1 Two Sum
+* 26 Remove Duplicates from Sorted Array
+* 27 Remove Element
 * 88 Merge Sorted Array
 * 160 Intersection of Two Linked List
 * 167 Two Sum II
 * 283 Moving Zeroes
 * 209 Minimum Size Subarray Sum
+
+# Other
+* 283 Move Zeroes
 
 
 # Binary Search
