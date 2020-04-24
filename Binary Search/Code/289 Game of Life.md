@@ -1,4 +1,5 @@
 # 289 Game of Life
+## Keep a Copy Board
 ```java
 public void gameOfLife(int[][] board) {
     int[][] neighbors = {{-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
@@ -34,6 +35,7 @@ public void gameOfLife(int[][] board) {
 ```
 * Time Complexity: O(M x N) 
 * Space Complexity: O(M x N)
+## Change in Place
 ```java
 public void gameOfLife(int[][] board) {
     int[][] neighbors = {{-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
