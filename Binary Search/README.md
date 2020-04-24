@@ -17,10 +17,11 @@ ______
 * 73 Set Matrix Zeroes
 ______
 * 56 Merge Intervals
-* 31 Next Permutation
+
 
 # Two Pointers
 * 1 Two Sum
+* 15 3Sum
 * 26 Remove Duplicates from Sorted Array
 * 27 Remove Element
 * 88 Merge Sorted Array
@@ -31,6 +32,10 @@ ______
 
 # Other
 * 283 Move Zeroes
+
+# Bad Questions
+* 31 Next Permutation
+* 66 Plus One
 
 
 # Binary Search
