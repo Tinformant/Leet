@@ -6,8 +6,21 @@ Great source: https://leetcode.com/explore/learn/card/binary-search/
 * 238 Product of Array Except Self
 * 561 Array Partition I 
 * 169 Majority Element
+* 66 plus one
+* 283 Move Zeroes
+* 88 Merge Sorted Array
+* 122 Best Time to Buy and Sell Stock II
+* 16 3Sum Closest
+* 48 Rotate Image
+* 56 Merge Intervals
+* 31 Next Permutation
+* 289 Game of Life
+* 152 Maximum Product Subarray
+
+
+
 # TODO
-* 66 Plus One
+
 
 
 # Two Pointers
