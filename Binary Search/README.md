@@ -1,4 +1,11 @@
 Great source: https://leetcode.com/explore/learn/card/binary-search/
+# First time
+* 53 Maximum Subarray
+* 15 3Sum
+* 121 Best Time to Buy and Sell Stock
+* 238 Product of Array Except Self
+* 561 Array Partition I 
+* 169 Majority Element
 # TODO
 * 66 Plus One
 
