@@ -2,23 +2,8 @@ Great source: https://leetcode.com/explore/learn/card/binary-search/
 # First time
 * 238 Product of Array Except Self
 * 561 Array Partition I 
-* 169 Majority Element
-* 66 plus one
-* 283 Move Zeroes
-* 88 Merge Sorted Array
 * 122 Best Time to Buy and Sell Stock II
-* 16 3Sum Closest
 * 48 Rotate Image
-______
-Apr. 25
-* 289 Game of Life
-* 73 Set Matrix Zeroes
-* 123 Best Time to Buy and Sell Stock III
-______
-Apr. 26
-* 11 Container with Most Water
-* 26 Remove Duplicates from Sorted Array
-* 27 Remove Element
 
 # Two Pointers
 * 1 Two Sum
@@ -36,6 +21,7 @@ Apr. 26
 # Other
 * 283 Move Zeroes
 * 56 Merge Intervals
+* 169 Majority Element
 
 # Bad Questions
 * 31 Next Permutation
