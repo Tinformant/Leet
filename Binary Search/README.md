@@ -1,8 +1,5 @@
 Great source: https://leetcode.com/explore/learn/card/binary-search/
 # First time
-* 53 Maximum Subarray
-* 15 3Sum
-* 121 Best Time to Buy and Sell Stock
 * 238 Product of Array Except Self
 * 561 Array Partition I 
 * 169 Majority Element
@@ -13,11 +10,15 @@ Great source: https://leetcode.com/explore/learn/card/binary-search/
 * 16 3Sum Closest
 * 48 Rotate Image
 ______
+Apr. 25
 * 289 Game of Life
 * 73 Set Matrix Zeroes
+* 123 Best Time to Buy and Sell Stock III
 ______
-* 56 Merge Intervals
-
+Apr. 26
+* 11 Container with Most Water
+* 26 Remove Duplicates from Sorted Array
+* 27 Remove Element
 
 # Two Pointers
 * 1 Two Sum
@@ -34,6 +35,7 @@ ______
 
 # Other
 * 283 Move Zeroes
+* 56 Merge Intervals
 
 # Bad Questions
 * 31 Next Permutation
