@@ -15,8 +15,6 @@ Great source: https://leetcode.com/explore/learn/card/binary-search/
 * 56 Merge Intervals
 * 31 Next Permutation
 * 289 Game of Life
-* 152 Maximum Product Subarray
-
 
 
 # TODO
