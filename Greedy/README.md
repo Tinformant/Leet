@@ -4,6 +4,8 @@
 ____
 * 1081 Smallest Subsequence of Distinct Characters
 * 134 Gas Station
+* 135 Candy
+____
 * 55 Jump Game
 
 
