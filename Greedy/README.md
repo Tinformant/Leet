@@ -3,4 +3,8 @@
 * 316 Remove Duplicate Letters
 ____
 * 1081 Smallest Subsequence of Distinct Characters
+* 134 Gas Station
+* 55 Jump Game
+
+
 
