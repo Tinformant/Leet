@@ -7,6 +7,10 @@ ____
 * 134 Gas Station
 * 135 Candy
 * 55 Jump Game
+____
+* 455 Assign Cookies
+* 767 Reorganize String
+* 861 Score After Flipping Matrix
 
 
 
