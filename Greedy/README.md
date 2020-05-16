@@ -15,6 +15,11 @@ ____
 * 330 Patching Array
 * 376 Wiggle Subsequence
 * 452 Minimum Number of Arrows to Burst Balloons
+____
+* 392 Is Subsequence
+* 659 Split Array into Consecutive Subsequences
+* 910 Smallest Range II
+
 
 
 
