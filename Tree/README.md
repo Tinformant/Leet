@@ -121,7 +121,9 @@ Sources
 * 113 Path Sum II
 * 114 Flatten Binary Tree to Linked List
 * 129 Sum Root to Leaf Numbers
+* 235 Lowest Common Ancestor of a Binary Search Tree
 * 404 Sum of Left Leaves
+* 437 Path Sum III
 
 ## Iteration instead of Recursion
 * 94 Binary Tree Inorder Traversal
@@ -156,9 +158,7 @@ https://stackoverflow.com/questions/5471731/in-order-successor-in-binary-search-
 
 ## TODO
 * 124 Binary Tree Maximum Path Sum
-* 129 Sum Root to Leaf Numbers
-* 437 Path Sum III
-* 235 Lowest Common Ancestor of a Binary Search Tree
+
 * 236 Lowest Common Ancestor of a Binary Tree
 * 687 Longest Univalue Path
 * 1008 Construct Binary Search Tree from Preorder Traversal
