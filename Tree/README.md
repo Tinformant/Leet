@@ -150,6 +150,7 @@ Sources
 ## Successor and Predecessor
 * 510 Inorder Successor in BST II
 * 285 Inorder Successor in BST
+* 450 Delete Node in a BST
 
 https://stackoverflow.com/questions/5471731/in-order-successor-in-binary-search-tree
 
