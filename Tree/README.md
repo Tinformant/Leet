@@ -160,7 +160,6 @@ https://stackoverflow.com/questions/5471731/in-order-successor-in-binary-search-
 * 437 Path Sum III
 * 235 Lowest Common Ancestor of a Binary Search Tree
 * 236 Lowest Common Ancestor of a Binary Tree
-* 450 Delete Node in a BST
 * 687 Longest Univalue Path
 * 1008 Construct Binary Search Tree from Preorder Traversal
 
