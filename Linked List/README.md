@@ -11,6 +11,7 @@
 
 ## Simple Recursion/Iteration
 * 21 Merge Two Sorted Lists
+* 24 Swap Nodes in Pairs
 * 138 Copy List with Random Pointer
 * 203 Remove Linked List Elements
 
