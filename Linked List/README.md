@@ -8,10 +8,10 @@
 * 86 Partition List
 * 61 Rotate List
 * 143 Reorder List
-* 138 Copy List with Random Pointer
 
 ## Simple Recursion/Iteration
 * 21 Merge Two Sorted Lists
+* 138 Copy List with Random Pointer
 * 203 Remove Linked List Elements
 
 
