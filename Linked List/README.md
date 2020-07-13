@@ -1,6 +1,12 @@
 # Linked List
 
+
 ## Recommended Order for Review
+* 21 Merge Two Sorted List
+* 206 Reverse Linked List I
+* 92 Reverse Linked List II
+
+## TODO
 * 19 Remove Nth Node From End of List
 * 82 Remove Duplicates from Sorted List II
 * 143 Reorder List
