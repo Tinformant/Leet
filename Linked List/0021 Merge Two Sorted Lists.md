@@ -114,3 +114,6 @@ public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         }
     }
 ```
+* Time complexity: O(n)
+* Space complexity: O(1)
+
