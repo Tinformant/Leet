@@ -1,4 +1,4 @@
-## 0021 Merge Two Sorted Lists.md
+## 21 Merge Two Sorted Lists.md
 ### Iterative solution
 **Java**
 ```java
