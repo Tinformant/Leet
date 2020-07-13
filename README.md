@@ -11,7 +11,7 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 7. Design
 8. Bit Manipulation
 
-## Resources for Grinding
+## Good Resources for Grinding
 * bilibili: 花花酱
 * YouTube: Back To Back SWE
 
