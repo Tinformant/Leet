@@ -1,10 +1,12 @@
 # Linked List
 
-
 ## Recommended Order for Review
-* 21 Merge Two Sorted List
-* 206 Reverse Linked List I
-* 92 Reverse Linked List II
+1. 83 Remove Duplicates from Sorted List
+2. 82 Remove Duplicates from Sorted List II
+3. 24 Swap Nodes in Pairs
+4. 21 Merge Two Sorted List
+5. 206 Reverse Linked List I
+6. 92 Reverse Linked List II
 
 ## TODO
 * 19 Remove Nth Node From End of List
