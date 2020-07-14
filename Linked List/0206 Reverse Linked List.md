@@ -3,7 +3,7 @@
 **Iterative Solution**
 ```java
 /* The iterativce solution is just reversing next.
- * 1 -> 2 -> 3 -> null
+ *         1 -> 2 -> 3 -> null
  * null <- 1 <- 2 <- 3 <- null
  */
 public ListNode reverseList(ListNode head) {
