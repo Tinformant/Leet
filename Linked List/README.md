@@ -1,6 +1,7 @@
 # Linked List
 
 ## Recommended Order for Review
+Simple list operation
 1. 83 Remove Duplicates from Sorted List
 2. 82 Remove Duplicates from Sorted List II
 3. 24 Swap Nodes in Pairs
