@@ -9,7 +9,7 @@ Simple list operation
 6. 206 Reverse Linked List I
 7. 92 Reverse Linked List II
 8. 237 delete node in a linked list
-9 2 Add Two Numbers
+9. 2 Add Two Numbers
 10. 445 Add Two Numbers II
 4. 24 Swap Nodes in Pairs
 11. 61 Rotate List
