@@ -3,11 +3,12 @@
 ## Recommended Order for Review
 Simple list operation
 1. 83 Remove Duplicates from Sorted List
-2. 82 Remove Duplicates from Sorted List II
-3. 24 Swap Nodes in Pairs
-4. 21 Merge Two Sorted List
-5. 206 Reverse Linked List I
-6. 92 Reverse Linked List II
+2. 203 Remove Linked List Elements
+3. 82 Remove Duplicates from Sorted List II
+5. 21 Merge Two Sorted List
+6. 206 Reverse Linked List I
+7. 92 Reverse Linked List II
+4. 24 Swap Nodes in Pairs
 
 ## TODO
 * 19 Remove Nth Node From End of List
@@ -25,7 +26,7 @@ Simple list operation
 * 21 Merge Two Sorted Lists
 * 24 Swap Nodes in Pairs
 * 138 Copy List with Random Pointer
-* 203 Remove Linked List Elements
+
 * 92 Reverse Linked List II
 
 
