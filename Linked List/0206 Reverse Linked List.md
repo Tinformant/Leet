@@ -2,7 +2,7 @@
 
 **Iterative Solution**
 ```java
-/* The iterativce solution is just reversing the next pointer.
+/* The iterativce solution is just reversing next.
  * 1 -> 2 -> 3 -> null
  * null <- 1 <- 2 <- 3 <- null
  */
