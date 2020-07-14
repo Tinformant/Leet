@@ -16,11 +16,12 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 * YouTube: Back To Back SWE
 
 ## TODO
-* LeetCode
+* Backtracking
 * OO Design
 * System Design
 * SQL
 * Low-Level System
 * Java
 * Python
+* C++
 * Frameworks
