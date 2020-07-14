@@ -8,10 +8,15 @@ Simple list operation
 5. 21 Merge Two Sorted List
 6. 206 Reverse Linked List I
 7. 92 Reverse Linked List II
+8. 237 delete node in a linked list
+9 2 Add Two Numbers
+10. 445 Add Two Numbers II
 4. 24 Swap Nodes in Pairs
+11. 61 Rotate List
+12. 234 Palindrome Linked List
 
 ## TODO
-* 19 Remove Nth Node From End of List
+* 19 Remove Nth Node From End of List (one-pass, two-pass)
 * 82 Remove Duplicates from Sorted List II
 * 143 Reorder List
 * 147 Insertion Sort List
