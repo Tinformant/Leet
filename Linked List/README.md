@@ -2,19 +2,19 @@
 
 ## Recommended Order for Review
 Simple list operation
-1. 83 Remove Duplicates from Sorted List
-2. 203 Remove Linked List Elements
-3. 82 Remove Duplicates from Sorted List II
-5. 21 Merge Two Sorted List
-6. 206 Reverse Linked List I
-7. 92 Reverse Linked List II
-8. 237 delete node in a linked list
-9. 2 Add Two Numbers
-10. 445 Add Two Numbers II
-4. 24 Swap Nodes in Pairs
-11. 61 Rotate List
+* 83 Remove Duplicates from Sorted List
+* 203 Remove Linked List Elements
+* 82 Remove Duplicates from Sorted List II
+* 21 Merge Two Sorted List
+* 206 Reverse Linked List I
+* 92 Reverse Linked List II
+* 237 delete node in a linked list
+* 2 Add Two Numbers
+* 445 Add Two Numbers II
+* 24 Swap Nodes in Pairs
+* 61 Rotate List
 Two pointer, stack
-12. 234 Palindrome Linked List
+* 234 Palindrome Linked List
 
 ## TODO
 * 19 Remove Nth Node From End of List (one-pass, two-pass)
