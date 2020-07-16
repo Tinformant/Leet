@@ -13,6 +13,7 @@ Simple list operation
 10. 445 Add Two Numbers II
 4. 24 Swap Nodes in Pairs
 11. 61 Rotate List
+Two pointer, stack
 12. 234 Palindrome Linked List
 
 ## TODO
