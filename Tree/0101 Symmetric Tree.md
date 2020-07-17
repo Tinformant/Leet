@@ -3,10 +3,8 @@
 **Java**
 ```java
 boolean isMirror (TreeNode left, TreeNode right) {
-        // Both are null
-        if (left == right)
+        if (left == null || right == null)
             return true;
-        // Only one is null
         if (left == null || right == null)
             return false;
         if (left.val != right.val)
