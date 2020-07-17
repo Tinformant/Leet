@@ -1,3 +1,38 @@
+# Tree
+## Recommended Order for Review
+* 98 Validate Binary Search Tree
+* 101 Symmetric Tree
+* 110 Balanced Binary Tree
+* 111 Minimum Depth of Binary Tree
+* 112 Path Sum
+* 113 Path Sum II
+* 114 Flatten Binary Tree to Linked List
+* 129 Sum Root to Leaf Numbers
+* 94 Binary Tree Inorder Traversal
+* 114 Flatten Binary Tree to Linked List
+* 144 Binary Tree Preorder Traversal
+* 145 Binary Tree Postorder Traversal
+* 105 Construct Binary Tree from Preorder and Inorder Traversal
+* 106 Construct Binary Tree from Inorder and Postorder Traversal
+* 108 Convert Sorted Array to Binary Search Tree
+
+
+## Search
+* 102 Binary Tree Level Order Traversal
+* 107 Binary Tree Level Order Traversal II
+* 116 Populating Next Right Pointers in Each Node
+* 117 Populating Next Right Pointers in Each Node II
+* 199 Binary Tree Right Side View
+* 513 Find Bottom Left Tree Value
+* 515 Find Largest Value in Each Tree Row
+* 637 Average of Levels in Binary Tree
+* 437 Path Sum III
+
+## Successor and Predecessor
+* 510 Inorder Successor in BST II
+* 285 Inorder Successor in BST
+* 450 Delete Node in a BST
+
 ## Binary Tree
 * Only constraint is that a binary tree has at most two children.
 
@@ -123,7 +158,6 @@ Sources
 * 129 Sum Root to Leaf Numbers
 * 235 Lowest Common Ancestor of a Binary Search Tree
 * 404 Sum of Left Leaves
-
 
 ## Iteration instead of Recursion
 * 94 Binary Tree Inorder Traversal
