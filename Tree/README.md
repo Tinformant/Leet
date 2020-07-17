@@ -4,7 +4,6 @@
 * 101 Symmetric Tree
 * 110 Balanced Binary Tree
 * 94 Binary Tree Inorder Traversal
-* 114 Flatten Binary Tree to Linked List
 * 144 Binary Tree Preorder Traversal
 * 145 Binary Tree Postorder Traversal
 * 105 Construct Binary Tree from Preorder and Inorder Traversal
