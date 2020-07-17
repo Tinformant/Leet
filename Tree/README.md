@@ -6,31 +6,30 @@ Recursion/Iteration
 * 110 Balanced Binary Tree
 * 111 Minimum Depth of Binary Tree
 * 226 Invert Binary Tree
+* 114 Flatten Binary Tree to Linked List
 
 Iterative Binary Tree Traversal
 * 94 Binary Tree Inorder Traversal
 * 144 Binary Tree Preorder Traversal
 * 145 Binary Tree Postorder Traversal
+
 Properties of Binary Tree Traversal
 * 105 Construct Binary Tree from Preorder and Inorder Traversal
 * 106 Construct Binary Tree from Inorder and Postorder Traversal
+
 BFS/DFS
 * 199 Binary Tree Right Side View
 * 515 Find Largest Value in Each Tree Row
 * 637 Average of Levels in Binary Tree
 * 112 Path Sum
 * 113 Path Sum II
-
-
-________
 * 102 Binary Tree Level Order Traversal
 * 107 Binary Tree Level Order Traversal II
+________
 * 116 Populating Next Right Pointers in Each Node
 * 117 Populating Next Right Pointers in Each Node II
 * 513 Find Bottom Left Tree Value
 * 437 Path Sum III
-
-* 114 Flatten Binary Tree to Linked List
 * 129 Sum Root to Leaf Numbers
 * 108 Convert Sorted Array to Binary Search Tree
 
