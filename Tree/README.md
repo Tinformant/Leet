@@ -3,11 +3,6 @@
 * 98 Validate Binary Search Tree
 * 101 Symmetric Tree
 * 110 Balanced Binary Tree
-* 111 Minimum Depth of Binary Tree
-* 112 Path Sum
-* 113 Path Sum II
-* 114 Flatten Binary Tree to Linked List
-* 129 Sum Root to Leaf Numbers
 * 94 Binary Tree Inorder Traversal
 * 114 Flatten Binary Tree to Linked List
 * 144 Binary Tree Preorder Traversal
@@ -15,7 +10,12 @@
 * 105 Construct Binary Tree from Preorder and Inorder Traversal
 * 106 Construct Binary Tree from Inorder and Postorder Traversal
 * 108 Convert Sorted Array to Binary Search Tree
-
+_________
+* 111 Minimum Depth of Binary Tree
+* 112 Path Sum
+* 113 Path Sum II
+* 114 Flatten Binary Tree to Linked List
+* 129 Sum Root to Leaf Numbers
 
 ## Search
 * 102 Binary Tree Level Order Traversal
