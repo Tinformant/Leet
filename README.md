@@ -7,8 +7,8 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 3. BFS/DFS
 4. DP
 5. Binary Search + Two Pointer
-6. Greedy
-7. Design
+6. Design
+7. Greedy
 8. Bit Manipulation
 
 ## Good Resources for Grinding
