@@ -1,4 +1,5 @@
 # Binary Tree Traversal
+## Preorder, Inorder and Postorder
 1. Inorder: left -> root -> right
 ```java
 void printInOrder (Node node) {
@@ -38,3 +39,5 @@ void printPostOrder (Node node) {
 **inorder = sorted(postorder) = sorted(preorder)**
 
 **inorder + postorder** or **inorder + preorder** are both unique identifiers of whatever binary tree.
+
+## Morris Traversal
