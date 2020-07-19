@@ -3,6 +3,7 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 
 ## Recommended Order for Review
 1. LinkedList
+  1. Cycle Detection
 2. Tree
 3. BFS/DFS
 4. DP
