@@ -19,8 +19,8 @@ Djikstra
 * 743 Network Delay Time
 
 Other
-
-* 785 Is Graph Bipartite?
+* 207 Course Schedule
+* 210 Course Schedule II
 * 547 Friend Circle
 
 ## First Week
@@ -32,8 +32,6 @@ ____
 * 130 Surronded Regions
 * 695 Max Area of Island
 ____
-* 207 Course Schedule
-* 210 Course Schedule II
 * 127 Word Ladder 
 ____
 * 417 Pacific Atlantic Water Flow
