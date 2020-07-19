@@ -7,8 +7,11 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 2. Tree
    * Iteration/Recursion
    * Traversal: Preorder, Inorder, Postorder, Morris, BFS, DFS
-3. Graph Search (BFS/DFS)
-4. DP
+3. Graph Search 
+   * BFS, DFS
+   * Topological Sort
+   * Union Find
+4. Dynamic Programming
 5. Binary Search + Two Pointer
 6. Design
 7. Greedy
