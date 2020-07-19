@@ -5,7 +5,9 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 1. LinkedList
     * Cycle Detection
 2. Tree
-3. BFS/DFS
+   * Iteration/Recursion
+   * Traversal: Preorder, Inorder, Postorder, Morris, BFS, DFS
+3. Graph Search (BFS/DFS)
 4. DP
 5. Binary Search + Two Pointer
 6. Design
