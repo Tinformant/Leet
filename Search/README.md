@@ -1,4 +1,4 @@
-# Search
+# Graph Search
 ## Recommended Order for Review:
 Straightforward BFS/DFS
 * 690 Employee Importance
