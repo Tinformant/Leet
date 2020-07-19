@@ -1,5 +1,5 @@
 ## 145 Binary Tree Postorder Traversal
-### Tweak the Order of the OutputIterative Postorder Traversal
+### Iterative Preorder Traversal: Tweak the Order of the Output
 ```java
 public List<Integer> postorderTraversal(TreeNode root) {
     LinkedList<Integer> out = new LinkedList<>();
@@ -17,7 +17,7 @@ public List<Integer> postorderTraversal(TreeNode root) {
     return out;
 }
 ```
-### Iterative Preorder Traversal
+### Iterative Postorder Traversal
 ```java
 public List<Integer> postorderTraversal(TreeNode root) {
     LinkedList<Integer> out = new LinkedList<>();
