@@ -19,6 +19,7 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 
 ## Uncategorized Good Questions
 * 20 Valid Parentheses
+* 54 Spiral Matrix    
 
 
 ## Good Resources for Grinding
