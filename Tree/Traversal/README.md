@@ -75,18 +75,19 @@ public List<Integer> BFS(TreeNode root) {
     if (root != null)
         frontier.add(root);
     while (!frontier.isEmpty()) {
+        // Get the size of the current level
         int size = frontier.size();
-        int max = Integer.MIN_VALUE;
         for (int i = 0; i < size; i++) {
             TreeNode cur = frontier.poll();
+            // DO THINGS HERE WITH cur and out
+            
+            // Populate the frontier with the next level
             if (cur.left != null)
                 frontier.add(cur.left);
             if (cur.right != null)
                 frontier.add(cur.right);
-            if (cur.val > max)
-                max = cur.val;
         }
-        out.add(max);
+        // OR DO THINGS HERE WITH cur and out
     }
     return out;
 }
