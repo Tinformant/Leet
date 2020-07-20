@@ -74,7 +74,7 @@ public List<Integer> BFS(TreeNode root) {
 
     if (root != null)
         frontier.add(root);
-    while (!q.isEmpty()) {
+    while (!frontier.isEmpty()) {
         int size = frontier.size();
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < size; i++) {
