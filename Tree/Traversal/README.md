@@ -1,4 +1,6 @@
 # Binary Tree Traversal
+* 105 Construct Binary Tree from Preorder and Inorder Traversal
+* 106 Construct Binary Tree from Inorder and Postorder Traversal
 ## Preorder, Inorder and Postorder
 1. Inorder: left -> root -> right
 ```java
