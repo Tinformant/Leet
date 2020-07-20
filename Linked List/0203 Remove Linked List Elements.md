@@ -1,5 +1,6 @@
 ## 203 Remove Linked List Elements
-Iterative Solution
+### Iteration
+**Java**
 ```java
 public ListNode removeElements(ListNode head, int val) {
     ListNode dummy = new ListNode(-1);
@@ -16,3 +17,24 @@ public ListNode removeElements(ListNode head, int val) {
     return dummy.next;
 }
 ```
+**Python**
+```python
+def removeElements(self, head, val):
+    """
+    :type head: ListNode
+    :type val: int
+    :rtype: ListNode
+    """
+    dummy = ListNode(-1)
+    dummy.next = head
+    prev = dummy
+
+    while head:
+        if head.val == val:
+            prev.next = head.next
+        else:
+            prev = prev.next
+        head = head.next
+    return dummy.next;
+```
+### Recursion
