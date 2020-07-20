@@ -40,6 +40,7 @@ public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 }
 ```
 ## 445 Add Two Numbers II
+1. Since the order of nodes is flipped, a stack can help reverse the order.
 ```java
 public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     Stack<Integer> s1 = new Stack<>();
