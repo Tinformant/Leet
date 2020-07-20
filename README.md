@@ -17,6 +17,10 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 7. Greedy
 8. Bit Manipulation
 
+## Uncategorized Good Questions
+* 20 Valid Parentheses
+
+
 ## Good Resources for Grinding
 * bilibili: 花花酱
 * YouTube: Back To Back SWE
