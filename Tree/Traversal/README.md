@@ -45,4 +45,21 @@ void printPostOrder (Node node) {
 
 **inorder + postorder** or **inorder + preorder** are both unique identifiers of whatever binary tree.
 
+## BFS/DFS
+### DFS
+```java
+void DFS (Node root) {
+  if (root == null) 
+    return;
+  visit(root);
+  root.visited = true;
+  for each (Node n in root.adjacent) {
+    if (n.visited == false) {
+    search(n);
+}
+```
+### BFS
+1. First move horizontally and visit all the nodes of the current layer
+2. Then, move to the next layer
+3. Key is using a queue.
 ## Morris Traversal
