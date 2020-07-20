@@ -28,15 +28,11 @@ Two pointer, stack
 * 61 Rotate List
 * 143 Reorder List
 
-
 ## Simple Recursion/Iteration
 * 21 Merge Two Sorted Lists
 * 24 Swap Nodes in Pairs
 * 138 Copy List with Random Pointer
-
 * 92 Reverse Linked List II
-
-
 
 ## Add Numbers
 * 2 Add Two Numbers
