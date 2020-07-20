@@ -26,12 +26,10 @@ BFS/DFS
 * 102 Binary Tree Level Order Traversal
 * 107 Binary Tree Level Order Traversal II
 
-DO THESE TOO
+TODO
 * 173 Binary Search Tree Iterator
 * 617 Merge Two Binary Trees
 * 108 Convert Sorted Array to Binary Search Tree
-
-TODO
 * 116 Populating Next Right Pointers in Each Node
 * 117 Populating Next Right Pointers in Each Node II
 * 513 Find Bottom Left Tree Value
