@@ -1,4 +1,6 @@
 ## 199 Binary Tree Right Side View
+### BFS
+* Basic BFS that returns the last node of each row.
 ```java
 public List<Integer> rightSideView(TreeNode root) {
     Queue<TreeNode> q = new LinkedList();
@@ -21,3 +23,4 @@ public List<Integer> rightSideView(TreeNode root) {
     return out;
 }
 ```
+### DFS
