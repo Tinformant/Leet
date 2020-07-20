@@ -1,7 +1,7 @@
 # Linked List
 
 ## Recommended Order for Review
-Simple list operation
+Basic Linked list operation
 * 83 Remove Duplicates from Sorted List
 * 203 Remove Linked List Elements
 * 82 Remove Duplicates from Sorted List II
