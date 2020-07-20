@@ -1,4 +1,7 @@
 # Binary Tree Traversal
+* 94 Binary Tree Inorder Traversal
+* 144 Binary Tree Preorder Traversal
+* 145 Binary Tree Postorder Traversal
 * 105 Construct Binary Tree from Preorder and Inorder Traversal
 * 106 Construct Binary Tree from Inorder and Postorder Traversal
 ## Preorder, Inorder and Postorder
