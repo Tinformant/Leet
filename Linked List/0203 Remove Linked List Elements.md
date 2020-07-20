@@ -1,5 +1,7 @@
 ## 203 Remove Linked List Elements
 ### Iteration
+* Time Complexity: O(n)
+* Space Complelxity :O(1)
 **Java**
 ```java
 public ListNode removeElements(ListNode head, int val) {
