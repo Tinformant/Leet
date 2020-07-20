@@ -32,6 +32,8 @@ ________
 * 437 Path Sum III
 * 129 Sum Root to Leaf Numbers
 * 108 Convert Sorted Array to Binary Search Tree
+* 173 Binary Search Tree Iterator
+* 617	Merge Two Binary Trees
 
 ## Successor and Predecessor
 * 510 Inorder Successor in BST II
