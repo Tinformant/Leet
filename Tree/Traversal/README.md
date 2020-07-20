@@ -67,4 +67,29 @@ void DFS (Node root) {
 1. First move horizontally and visit all the nodes of the current layer
 2. Then, move to the next layer
 3. Key is using a queue.
+```java
+public List<Integer> BFS(TreeNode root) {
+    List<Integer> out = new LinkedList();
+    Queue<TreeNode> frontier = new LinkedList();
+
+    if (root != null)
+        frontier.add(root);
+    while (!q.isEmpty()) {
+        int size = frontier.size();
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < size; i++) {
+            TreeNode cur = frontier.poll();
+            if (cur.left != null)
+                frontier.add(cur.left);
+            if (cur.right != null)
+                frontier.add(cur.right);
+            if (cur.val > max)
+                max = cur.val;
+        }
+        out.add(max);
+    }
+    return out;
+}
+```
+
 ## Morris Traversal
