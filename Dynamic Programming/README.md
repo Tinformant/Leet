@@ -1,5 +1,7 @@
 # Dynamic Programming
 
+* 62 Unique Paths
+* 174	Dungeon Game
 * 5	Longest Palindromic Substring
 * 53 Maximum Subarray
 * 96 Unique Binary Search Trees
