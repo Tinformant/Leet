@@ -73,44 +73,6 @@ class BinaryTree {
 ### Time Complexity
 * Insert, remove and search: average case O(logn), worst case O(n)
 
-## Search
-### DFS
-```java
-void DFS (Node root) {
-  if (root == null) return;
-  visit(root);
-  root.visited = true;
-  for each (Node n in root.adjacent) {
-    if (n.visited == false) {
-    search(n);
-}
-```
-### BFS
-1. First move horizontally and visit all the nodes of the current layer
-2. Move to the next layer
-
-The key is using a queue.
-```java
-void BFS (Node root) {
-  Queue queue = new Queue();
-  root.marked = true;
-  queue.enqueue(root);
-  
-  while (!queue.isEmpty()) {
-    node r = queue.dequeue();
-    visit(r);
-    foreach (Node n in r.adjacent) {
-      if (n.marked == false) {
-        n.marked = true;
-        queue.enqueue(n);
-      }
-    }
-  }
-}
-```
-Sources
-1. https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/
-
 ## Simple Recursion
 * 98 Validate Binary Search Tree
 * 100 Same Tree
