@@ -1,4 +1,9 @@
 ## 637 Average of Levels in Binary Tree
+### BFS
+* Just a basic application of BFS.
+* Only thing to watch is to use a long for sum to avoid integer overflow.
+* Time Complexity: O(n) - n is the total # of nodes
+* Space Complexity: O(m) - m is the maximum # of nodes in any level
 ```java
 public List<Double> averageOfLevels(TreeNode root) {
     List<Double> out = new LinkedList();
