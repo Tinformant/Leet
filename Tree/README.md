@@ -18,9 +18,9 @@ Properties of Binary Tree Traversal
 * 106 Construct Binary Tree from Inorder and Postorder Traversal
 
 BFS/DFS
+* 637 Average of Levels in Binary Tree
 * 199 Binary Tree Right Side View
 * 515 Find Largest Value in Each Tree Row
-* 637 Average of Levels in Binary Tree
 * 112 Path Sum
 * 113 Path Sum II
 * 102 Binary Tree Level Order Traversal
