@@ -10,3 +10,6 @@
 * 213	House Robber II
 * 139	Word Break
 * 152	Maximum Product Subarray
+
+## Resources
+1. https://www.1point3acres.com/bbs/thread-542696-1-1.html
