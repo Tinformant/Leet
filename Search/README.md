@@ -26,11 +26,11 @@ Other
 * 547 Friend Circle
 * 695 Max Area of Island
 * 394 Decode String
-
-## Future TODO
+* 994 Rotten Orange
 * 127 Word Ladder 
 * 417 Pacific Atlantic Water Flow
-* 994 Rotten Orange
+
+## Future TODO
 * 430 Flatten a Multilevel Doubly Linked List
 * 787 Cheapest Flights Within K Stops
 * 752 Open the Lock
