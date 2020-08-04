@@ -4,6 +4,7 @@
 * 62 Unique Paths
 * 63 Unique Paths II
 * 174	Dungeon Game
+**Kadane's Algorithm**
 * 5	Longest Palindromic Substring
 * 53 Maximum Subarray
 * 152	Maximum Product Subarray
