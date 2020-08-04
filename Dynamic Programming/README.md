@@ -4,12 +4,15 @@
 * 62 Unique Paths
 * 63 Unique Paths II
 * 174	Dungeon Game
+
 **Kadane's Algorithm**
-* 5	Longest Palindromic Substring
 * 53 Maximum Subarray
+* 121 Best Time to Buy and Sell Stock
 * 152	Maximum Product Subarray
 
+
 ## TODO
+* 5	Longest Palindromic Substring
 * 96 Unique Binary Search Trees
 * 70 Climbing Stairs
 * 198	House Robber
