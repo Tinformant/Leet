@@ -6,17 +6,21 @@
 * 174	Dungeon Game
 
 **Kadane's Algorithm**
-* 53 Maximum Subarray
 * 121 Best Time to Buy and Sell Stock
+* 122 Best Time to Buy and Sell Stock II
+* 123 Best Time to Buy and Sell Stock III
+* 53 Maximum Subarray
+**Other**
 * 152	Maximum Product Subarray
-
-
-## TODO
 * 5	Longest Palindromic Substring
-* 96 Unique Binary Search Trees
 * 70 Climbing Stairs
 * 198	House Robber
 * 213	House Robber II
+
+## TODO
+
+* 96 Unique Binary Search Trees
+
 * 139	Word Break
 * 322 Coin Change
 * 91 Decode Ways
