@@ -24,6 +24,15 @@
 * 322 Coin Change
 * 91 Decode Ways
 * 221 Maximal Square
+* 256 Paint House
+* 64 Minimum Path Sum
+* 300 Longest Increasing Subsequence
+* 32 Longest Valid Parentheses
+* 120 Triangle
+* 72 Edit Distance
+* 647	Palindromic Substrings
+
+
 
 
 
