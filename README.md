@@ -20,6 +20,9 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 ## Uncategorized Good Questions
 * 20 Valid Parentheses
 * 54 Spiral Matrix    
+* 289 Game of Life
+* 15 3sum
+* 11 Container with Most Water
 
 
 ## Good Resources for Grinding
