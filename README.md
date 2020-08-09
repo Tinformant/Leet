@@ -40,6 +40,8 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 * 37 Sudoku Solver
 * 126	Word Ladder II    
 * 127 Word Ladder    
+* 49 Group Anagrams
+
 
 
 ## Good Resources for Grinding
