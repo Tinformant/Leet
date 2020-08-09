@@ -23,6 +23,8 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 * 289 Game of Life
 * 15 3sum
 * 11 Container with Most Water
+* 1192 Critical Connections in a Network
+
 
 
 ## Good Resources for Grinding
