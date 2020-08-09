@@ -12,10 +12,11 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
    * Topological Sort
    * Union Find
 4. Dynamic Programming
-5. Binary Search + Two Pointer
-6. Design
-7. Greedy
+5. Backtracking
+6. Binary Search + Two Pointer
+7. Design
 8. Bit Manipulation
+9. Greedy
 
 ## Uncategorized Good Questions
 * 20 Valid Parentheses
