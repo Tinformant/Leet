@@ -26,8 +26,8 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 * 1192 Critical Connections in a Network
 * 238 Product of Array Except Self
 
-
-
+## BackTracking
+* 22 Generate Parentheses
 
 ## Good Resources for Grinding
 * bilibili: 花花酱
