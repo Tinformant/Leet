@@ -14,3 +14,7 @@
 * 49 Group Anagrams
 * 78 Subsets
 * 40 Combination Sum II
+
+## Resources
+1. https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=583166&highlight=backtracking
+2. https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=589136&highlight=backtracking
