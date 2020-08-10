@@ -12,3 +12,5 @@
 * 126 Word Ladder II
 * 127 Word Ladder
 * 49 Group Anagrams
+* 78 Subsets
+* 40 Combination Sum II
