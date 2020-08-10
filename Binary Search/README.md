@@ -1,4 +1,5 @@
 Great source: https://leetcode.com/explore/learn/card/binary-search/
+# Two Pointer + Sliding Window + Binary Search
 # First time
 * 238 Product of Array Except Self
 * 561 Array Partition I 
@@ -25,6 +26,14 @@ Great source: https://leetcode.com/explore/learn/card/binary-search/
 # Bad Questions
 * 31 Next Permutation
 * 66 Plus One
+
+# Binary Search Recommended Order for Review
+1. 35 Search Insert Position
+2. 278 First Bad Version
+3. 74	Search a 2D Matrix
+4. 33	Search in Rotated Sorted Array
+5. 81	Search in Rotated Sorted Array II
+6. 34 Find First and Last Position of Element in Sorted Array
 
 
 # Binary Search
@@ -55,12 +64,6 @@ int mid = (left + right) / 2;
 int mid = left + (right - left) / 2;
 ```
 
-## Recommended Order for Review
-1. 0035 Search Insert Position
-2. 0278 First Bad Version
-3. 0074	Search a 2D Matrix
-4. 0033	Search in Rotated Sorted Array
-5. 0081	Search in Rotated Sorted Array II
-6. 0034 Find First and Last Position of Element in Sorted Array
+
 
 * 375 Guess Number Higher or Lower
