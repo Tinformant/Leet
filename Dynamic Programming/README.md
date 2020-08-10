@@ -32,9 +32,7 @@
 * 72 Edit Distance
 * 647	Palindromic Substrings
 
-
-
-
-
 ## Resources
 1. https://www.1point3acres.com/bbs/thread-542696-1-1.html
+2. https://algo.monster/problems/dynamic_programming_intro
+3. https://leetcode.com/discuss/general-discussion/458695/Dynamic-Programming-Patterns
