@@ -28,7 +28,6 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 * 238 Product of Array Except Self
 * 953 Verifying an Alien Dictionary
 
-
 ## BackTracking
 * 10 Regular Expression Matching
 * 17 Letter Combinations of a Phone Number
@@ -44,15 +43,12 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 * 127 Word Ladder    
 * 49 Group Anagrams
 
-
-
 ## Good Resources for Grinding
 * bilibili: 花花酱
 * YouTube: Back To Back SWE
 
 ## TODO
 * Educative recursion
-* Backtracking
 * Sliding Window
 * OO Design
 * System Design
