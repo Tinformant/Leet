@@ -35,6 +35,9 @@ Great source: https://leetcode.com/explore/learn/card/binary-search/
 5. 81	Search in Rotated Sorted Array II
 6. 34 Find First and Last Position of Element in Sorted Array
 
+# Sliding Window
+* 3 Longest Substring Without Repeating Characters    
+
 
 # Binary Search
 Binary search **only works in a sorted array**. Thus if an input array is not sorted, make it sorted.
