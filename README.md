@@ -26,6 +26,8 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 * 11 Container with Most Water
 * 1192 Critical Connections in a Network
 * 238 Product of Array Except Self
+* 953 Verifying an Alien Dictionary
+
 
 ## BackTracking
 * 10 Regular Expression Matching
