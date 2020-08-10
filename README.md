@@ -13,7 +13,7 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
    * Union Find
 4. Dynamic Programming
 5. Backtracking
-6. Binary Search + Two Pointer
+6. Binary Search + Two Pointer + Sliding Window
 7. Design
 8. Bit Manipulation
 9. Greedy
