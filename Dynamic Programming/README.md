@@ -27,7 +27,7 @@
 * 647	Palindromic Substrings
 * 72 Edit Distance
 
-## TODO
+## Other
 * 96 Unique Binary Search Trees
 * 139	Word Break
 * 91 Decode Ways
