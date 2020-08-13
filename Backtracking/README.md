@@ -18,3 +18,6 @@
 ## Resources
 1. https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=583166&highlight=backtracking
 2. https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=589136&highlight=backtracking
+
+**Template**
+https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)
