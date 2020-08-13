@@ -18,6 +18,7 @@
 **Minimum (Maximum) Path to Reach a Target**
 * 64 Minimum Path Sum
 * 322 Coin Change
+  * Knapsack
 * 120 Triangle
 * 221 Maximal Square
 * 174	Dungeon Game
