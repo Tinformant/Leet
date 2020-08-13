@@ -29,6 +29,7 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 * 953 Verifying an Alien Dictionary
 * 49 Group Anagrams
 * 42 Trapping Rain Water
+* 56 Merge Intervals
 
 **Implementing Customized Sort**
 * 937 Reorder Data in Log Files
