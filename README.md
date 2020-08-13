@@ -16,7 +16,8 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 6. Binary Search + Two Pointer + Sliding Window
 7. Design
 8. Bit Manipulation
-9. Greedy
+9. Heap
+10. Other 
 
 ## Uncategorized Good Questions
 * 20 Valid Parentheses
