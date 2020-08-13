@@ -31,6 +31,7 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 * 49 Group Anagrams
 * 42 Trapping Rain Water
 * 56 Merge Intervals
+* 415 Add Strings
 
 **Implementing Customized Sort**
 * 937 Reorder Data in Log Files
