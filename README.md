@@ -14,9 +14,9 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 4. Dynamic Programming
 5. Backtracking
 6. Binary Search + Two Pointer + Sliding Window
-7. Design
-8. Bit Manipulation
-9. Heap
+7. Heap
+8. Design
+9. Bit Manipulation
 10. Other 
 
 ## Uncategorized Good Questions
