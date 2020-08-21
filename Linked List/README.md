@@ -25,14 +25,13 @@ Cycle Detection
 * 141 Linked List Cycle
 * 142 Linked List Cycle II
 * 202 Happy Number
+* 160 Intersection of Two Linked Lists
 
 ## TODO
 * 19 Remove Nth Node From End of List (one-pass, two-pass)
 * 82 Remove Duplicates from Sorted List II
 * 143 Reorder List
 * 147 Insertion Sort List
-* 160 Intersection of Two Linked Lists
-* 234 Palindrome Linked List
 * 86 Partition List
 * 61 Rotate List
 * 143 Reorder List
