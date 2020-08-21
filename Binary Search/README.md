@@ -18,14 +18,20 @@ Great source: https://leetcode.com/explore/learn/card/binary-search/
 * 283 Moving Zeroes
 * 209 Minimum Size Subarray Sum
 
+
 # Other
-* 28 Implement strStr()
 * 283 Move Zeroes
 * 56 Merge Intervals
 * 169 Majority Element
 
 # Bad Questions
+Single Pass
 * 31 Next Permutation
+
+Two Pointer
+* 28 Implement strStr()
+
+Other
 * 66 Plus One
 
 # Binary Search Recommended Order for Review
