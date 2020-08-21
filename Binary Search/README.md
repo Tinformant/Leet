@@ -5,10 +5,10 @@ Great source: https://leetcode.com/explore/learn/card/binary-search/
 * 561 Array Partition I 
 * 48 Rotate Image
 
-# One/Two Pass
+## One/Two Pass Recommended Order for Review
 * 1 Two Sum
 
-# Two Pointers
+## Two Pointers Recommended Order for Review
 * 11 Container with Most Water
 * 15 3Sum
 * 16 3Sum Closest
@@ -20,6 +20,16 @@ Great source: https://leetcode.com/explore/learn/card/binary-search/
 * 283 Moving Zeroes
 * 209 Minimum Size Subarray Sum
 
+## Binary Search Recommended Order for Review
+1. 35 Search Insert Position
+2. 278 First Bad Version
+3. 74	Search a 2D Matrix
+4. 33	Search in Rotated Sorted Array
+5. 81	Search in Rotated Sorted Array II
+6. 34 Find First and Last Position of Element in Sorted Array
+
+# Sliding Window Recommended Order for Review
+* 3 Longest Substring Without Repeating Characters   
 
 # Other
 * 283 Move Zeroes
@@ -35,18 +45,6 @@ Two Pointer
 
 Other
 * 66 Plus One
-
-# Binary Search Recommended Order for Review
-1. 35 Search Insert Position
-2. 278 First Bad Version
-3. 74	Search a 2D Matrix
-4. 33	Search in Rotated Sorted Array
-5. 81	Search in Rotated Sorted Array II
-6. 34 Find First and Last Position of Element in Sorted Array
-
-# Sliding Window
-* 3 Longest Substring Without Repeating Characters    
-
 
 # Binary Search
 Binary search **only works in a sorted array**. Thus if an input array is not sorted, make it sorted.
@@ -75,7 +73,5 @@ int mid = (left + right) / 2;
 // Use this instead
 int mid = left + (right - left) / 2;
 ```
-
-
 
 * 375 Guess Number Higher or Lower
