@@ -21,6 +21,11 @@ Add Two Numbers
 Two pointer, stack
 * 234 Palindrome Linked List
 
+Cycle Detection
+* 141 Linked List Cycle
+* 142 Linked List Cycle II
+* 202 Happy Number
+
 ## TODO
 * 19 Remove Nth Node From End of List (one-pass, two-pass)
 * 82 Remove Duplicates from Sorted List II
