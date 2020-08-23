@@ -43,7 +43,6 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 
 ## TODO
 * Educative recursion
-* Sliding Window
 * OO Design
 * System Design
 * SQL
