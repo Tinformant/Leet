@@ -33,7 +33,7 @@ public List<List<Integer>> someProblem(int[] nums) {
 
 private void backtrack(List<List<Integer>> out , List<Integer> tempList, int [] nums, int start){
     // Must create a new clone for output since old reference keeps changing
-    list.add(new ArrayList<>(tempList));
+    out.add(new ArrayList<>(tempList));
     for(int i = start; i < nums.length; i++){
         tempList.add(nums[i]);
         backtrack(out, tempList, nums, i + 1);
