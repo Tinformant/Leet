@@ -21,6 +21,7 @@ BFS/DFS
 * 637 Average of Levels in Binary Tree
 * 199 Binary Tree Right Side View
 * 515 Find Largest Value in Each Tree Row
+* 513 Find Bottom Left Tree Value
 * 112 Path Sum
 * 113 Path Sum II
 * 102 Binary Tree Level Order Traversal
@@ -32,10 +33,8 @@ TODO
 * 108 Convert Sorted Array to Binary Search Tree
 * 116 Populating Next Right Pointers in Each Node
 * 117 Populating Next Right Pointers in Each Node II
-* 513 Find Bottom Left Tree Value
 * 437 Path Sum III
 * 129 Sum Root to Leaf Numbers
-
 
 ## Successor and Predecessor
 * 510 Inorder Successor in BST II
