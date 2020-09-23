@@ -7,7 +7,7 @@
 
 ### Modulo + Array
 1. hash function design: modulo %; hash key = input % pre-picked modulo number (2069 in this case)
-2. collision handling: use a **bucket** to hold all values
+2. collision handling: separate chaining -> use a **bucket** to hold all values
 ```java
 class Pair<U, V> {
     public U first;
