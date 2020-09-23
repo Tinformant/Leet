@@ -64,9 +64,7 @@ void DFS (Node root) {
 }
 ```
 ### BFS
-1. First move horizontally and visit all the nodes of the current layer
-2. Then, move to the next layer
-3. Key is using a queue.
+* Key is using a queue.
 ```java
 public List<Integer> BFS(TreeNode root) {
     List<Integer> out = new LinkedList();
