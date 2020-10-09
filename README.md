@@ -40,6 +40,7 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 ## Good Resources for Grinding
 * bilibili: 花花酱
 * YouTube: Back To Back SWE
+* Book: Element of Programming Interview
 
 ## TODO
 * Educative recursion
