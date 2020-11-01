@@ -16,3 +16,8 @@ Disjoint Set: The data structure used to check the connectivity of graph efficie
 1. Sort all the edges in non-decreasing order of their weight. 
 2. Pick the smallest edge. Check if it forms a cycle with the spanning tree formed so far. If cycle is not formed, include this edge. Else, discard it. 
 3. Repeat step#2 until there are (V-1) edges in the spanning tree.
+
+## Prim's Algorithm
+1. Initialize a tree with a single vertex, chosen arbitrarily from the graph.
+2. Grow the tree by one edge: of the edges that connect the tree to vertices not yet in the tree, find the minimum-weight edge, and transfer it to the tree.
+3. Repeat step 2 (until all vertices are in the tree).
