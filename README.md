@@ -17,7 +17,12 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 7. Heap
 8. Design
 9. Bit Manipulation
-10. Other 
+10. Greedy
+   * Kruskal
+   * Prim
+   * Dijkstra
+   * Bellman-Ford
+11. Other 
 
 ## Uncategorized Good Questions
 * 20 Valid Parentheses
