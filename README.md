@@ -18,10 +18,10 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 8. Design
 9. Bit Manipulation
 10. Greedy
-   * Kruskal
-   * Prim
-   * Dijkstra
-   * Bellman-Ford
+      * Kruskal
+      * Prim
+      * Dijkstra
+      * Bellman-Ford
 11. Other 
 
 ## Uncategorized Good Questions
