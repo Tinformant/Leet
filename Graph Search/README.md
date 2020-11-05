@@ -1,23 +1,23 @@
 # Graph Search
 ## Recommended Order for Review:
-Warmup
+**Warmup**
 * 690 Employee Importance
 * 733 Flood Fill
 
-Both DFS and BFS
+**Both DFS and BFS**
 * 200 Number of Islands
 * 130 Surronded Regions
 * 133 Clone Graph
 * 785 Is Graph Bipartite?
 
-Start from 0 and backtrack to non-zero cells:
+**Start from 0 and backtrack to non-zero cells**
 * 286 Walls and Gates
 * 542 01 Matrix 
 
-No need to keep a visited list:
+**No need to keep a visited list**
 * 529 Minesweeper
 
-Djikstra
+**Djikstra**
 * 743 Network Delay Time
 
 Other
@@ -38,9 +38,6 @@ Other
 
 ## Premium Questions
 * 286 Walls and Gates
-
-
-
 
 ## Union Find
 * 947 Most Stones Removed with Same Row or Column
