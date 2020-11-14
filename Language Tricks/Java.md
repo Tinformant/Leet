@@ -21,8 +21,10 @@ ArrayDequeue            | O(1)     | O(1) | O(1)     |  O(n)  | O(1) |
 Automatic garbage collection looks at heap memory, identifying which objects are in use and which are not, and deleting the unused objects
 **Steps**
 1. Marking: garbage collector identifies which pieces of memory are in use and which are not.
-  * Time-consuming if all objects have to be scanned
+    * Time-consuming if all objects have to be scanned
 2. Deletion
-  * Normal Deletion
-    * Normal deletion removes unreferenced objects leaving referenced objects and pointers to free space.
-  * Deletion with Compacting: 
+    * Normal Deletion
+        * Removes unreferenced objects leaving referenced objects and pointers to free space.
+        * Memory allocator holds a list of references to free spaces and searches for free space whenever an allocation is required.
+    * Deletion with Compacting
+        * In addition to deleting unreferenced objects, move referenced object together, making new memory allocation faster.
