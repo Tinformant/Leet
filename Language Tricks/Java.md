@@ -22,4 +22,7 @@ Automatic garbage collection looks at heap memory, identifying which objects are
 **Steps**
 1. Marking: garbage collector identifies which pieces of memory are in use and which are not.
   * Time-consuming if all objects have to be scanned
-2a. Deletion
+2. Deletion
+  * Normal Deletion
+    * Normal deletion removes unreferenced objects leaving referenced objects and pointers to free space.
+  * Deletion with Compacting: 
