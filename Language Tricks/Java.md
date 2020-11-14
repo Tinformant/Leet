@@ -15,3 +15,11 @@ Queue                   |  Offer   | Peak |   Poll   | Remove | Size | Data Stru
 PriorityQueue           | O(log n) | O(1) | O(log n) |  O(n)  | O(1) | Priority Heap
 LinkedList              | O(1)     | O(1) | O(1)     |  O(1)  | O(1) | 
 ArrayDequeue            | O(1)     | O(1) | O(1)     |  O(n)  | O(1) |
+
+
+## Garbage Collection
+Automatic garbage collection looks at heap memory, identifying which objects are in use and which are not, and deleting the unused objects
+**Steps**
+1. Marking: garbage collector identifies which pieces of memory are in use and which are not.
+  * Time-consuming if all objects have to be scanned
+2a. Deletion
