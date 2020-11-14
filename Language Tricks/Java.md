@@ -28,3 +28,7 @@ Automatic garbage collection looks at heap memory, identifying which objects are
         * Memory allocator holds a list of references to free spaces and searches for free space whenever an allocation is required.
     * Deletion with Compacting
         * In addition to deleting unreferenced objects, move referenced object together, making new memory allocation faster.
+**Generational GC**
+   1. 
+### Resources
+* https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html
