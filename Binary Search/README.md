@@ -20,14 +20,6 @@ Great source: https://leetcode.com/explore/learn/card/binary-search/
 * 283 Moving Zeroes
 * 209 Minimum Size Subarray Sum
 
-## Binary Search Recommended Order for Review
-1. 35 Search Insert Position
-2. 278 First Bad Version
-3. 74	Search a 2D Matrix
-4. 33	Search in Rotated Sorted Array
-5. 81	Search in Rotated Sorted Array II
-6. 34 Find First and Last Position of Element in Sorted Array
-
 # Sliding Window Recommended Order for Review
 * 3 Longest Substring Without Repeating Characters   
 
@@ -47,6 +39,14 @@ Other
 * 66 Plus One
 
 # Binary Search
+## Binary Search Recommended Order for Review
+1. 35 Search Insert Position
+2. 278 First Bad Version
+3. 74	Search a 2D Matrix
+4. 33	Search in Rotated Sorted Array
+5. 81	Search in Rotated Sorted Array II
+6. 34 Find First and Last Position of Element in Sorted Array
+
 Binary search **only works in a sorted array**. Thus if an input array is not sorted, make it sorted.
 
 **Time Complexity: O(log(n))**
