@@ -40,7 +40,7 @@ Other
 
 # Binary Search
 ## Binary Search Recommended Order for Review
-1. 35 Search Insert Position
+1. 704 Binary Search (Template I)
 2. 278 First Bad Version
 3. 74	Search a 2D Matrix
 4. 33	Search in Rotated Sorted Array
