@@ -48,6 +48,9 @@ Everyday, it gets a little easier. But you gotta do it everyday. That's the hard
 * Book: Element of Programming Interview
 * Website: programiz.com
 
+## Good Resources for General Job Search
+* https://yangshun.github.io/tech-interview-handbook/
+
 ## TODO
 * Educative recursion
 * OO Design
