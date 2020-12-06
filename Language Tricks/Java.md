@@ -1,4 +1,9 @@
 # Java Tricks for Interview
+## Data Structures
+**Stack**
+```java
+Stack<dataType> stackName = new Stack<>();
+```
 **Returning a New Array**
 ```java
 return new int[] {x, y};
