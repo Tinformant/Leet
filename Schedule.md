@@ -4,3 +4,5 @@
   * two pointers 
 * 0020 Valid Parentheses
   * stack  
+
+### 07/08 - 07/14
