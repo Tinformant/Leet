@@ -14,6 +14,11 @@
    * Iteration & recursion
 * 0203 Remove Linked List Elements
    * Iteration & recursion
+* 0002 Add Two Numbers
+   * Iteration
+* 0155 Min Stack
+   * Stack
+
 
 ### Future ones
 * 0070 Climbing Stairs
