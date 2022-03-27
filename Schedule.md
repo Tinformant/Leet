@@ -7,3 +7,4 @@
 ### 3/28 - 4/2
 * 0020 Valid Parentheses
   * stack  
+* 0021 Merge Two Sorted Lists
