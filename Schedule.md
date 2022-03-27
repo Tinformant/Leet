@@ -10,3 +10,9 @@
    * Stack  
 * 0021 Merge Two Sorted Lists
    * Iteration & recursion
+
+
+* 0070 Climbing Stairs
+* 0091 Decode Ways
+* 0062 Unique Paths
+* 0509 Fibonacci Number
