@@ -18,11 +18,11 @@
    * Iteration
 * 0155 Min Stack
    * Stack
+* 0101 Symmetric Tree
+   * Recursion/Iteration
 
-Recursion/Iteration
-
+### 4/3 - 4/10
 * 98 Validate Binary Search Tree
-* 101 Symmetric Tree
 * 110 Balanced Binary Tree
 * 111 Minimum Depth of Binary Tree
 * 226 Invert Binary Tree
